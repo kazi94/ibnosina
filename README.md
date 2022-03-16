@@ -4,4 +4,4 @@
 2. Copy .env.example file to .env and edit database credentials there
 3. Run `composer install`
 4. Run `php artisan key:generate`
-5. Run 'php artisan serve' 
+5. Run `php artisan serve` 
