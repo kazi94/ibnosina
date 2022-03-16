@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Utilisateur - AnaPharmDz Documentation</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Utilisateur";
+    var mkdocs_page_input_path = "user.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> AnaPharmDz Documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Présentation</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../admin/">Administrateur</a>
+                    </li>
+                </ul>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Utilisateur</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#mon-service">Mon Service</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mes-patients">Mes Patients</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#liste-des-patients">Liste des Patients</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ajouter-un-patient">Ajouter un Patient</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#consultation-rapide">Consultation Rapide</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#hospitalisation">Hospitalisation</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#dossier-medicale-patient">Dossier Médicale Patient</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#1-profile-patient">1. Profile Patient</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#2-consultations">2. Consultations</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#3-hospitalisations">3. Hospitalisations</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#4-prescriptions-service">4. Prescriptions Service</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#5-prescriptions-examen">5. Prescriptions Examen</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#6-automedications">6. Automédications</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#7-traitements-chronique">7. Traitements Chronique</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#8-prescriptions-act">8. Prescriptions Act</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#9-phytotherapies">9. Phytothérapies</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#10-observances">10. Observances</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#11-educations-therapeutiques">11. Educations Thérapeutiques</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#12-annotations">12. Annotations</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#13-avis-sur-lip">13. Avis sur L'IP</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mes-administrations">Mes Administrations</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#liste-des-administrations">Liste des Administrations</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#historique-des-administrations">Historique des Administrations</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mes-demandes-dexamens">Mes Demandes D'examens</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#liste-des-demandes-dexamens">Liste des demandes d'examens</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#historiqe-des-demandes-dexamens-faites">Historiqe des demandes d'examens faites</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mon-armoire-pharmaceutique">Mon Armoire Pharmaceutique</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mes-prescriptions-a-analyser">Mes Prescriptions à Analyser</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#mes-prescriptions-analysees">Mes Prescriptions Analysées</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#mes-educations-therapeutiques">Mes Educations Thérapeutiques</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#mes-observances">Mes Observances</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#pharmacologie-formulaire">Pharmacologie Formulaire</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mon-agenda">Mon Agenda</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#outils">Outils</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#bibliotheque">Bibliothèque</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#clairance-calculateur">Clairance Calculateur</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">AnaPharmDz Documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Utilisateur</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="guide-complet-utilisateur">Guide Complet Utilisateur</h1>
+<h2 id="mon-service">Mon Service</h2>
+<h2 id="mes-patients">Mes Patients</h2>
+<h3 id="liste-des-patients">Liste des Patients</h3>
+<h3 id="ajouter-un-patient">Ajouter un Patient</h3>
+<h3 id="consultation-rapide">Consultation Rapide</h3>
+<h3 id="hospitalisation">Hospitalisation</h3>
+<h3 id="dossier-medicale-patient">Dossier Médicale Patient</h3>
+<h4 id="1-profile-patient">1. Profile Patient</h4>
+<h4 id="2-consultations">2. Consultations</h4>
+<h4 id="3-hospitalisations">3. Hospitalisations</h4>
+<h4 id="4-prescriptions-service">4. Prescriptions Service</h4>
+<h4 id="5-prescriptions-examen">5. Prescriptions Examen</h4>
+<h4 id="6-automedications">6. Automédications</h4>
+<h4 id="7-traitements-chronique">7. Traitements Chronique</h4>
+<h4 id="8-prescriptions-act">8. Prescriptions Act</h4>
+<h4 id="9-phytotherapies">9. Phytothérapies</h4>
+<h4 id="10-observances">10. Observances</h4>
+<h4 id="11-educations-therapeutiques">11. Educations Thérapeutiques</h4>
+<h4 id="12-annotations">12. Annotations</h4>
+<h4 id="13-avis-sur-lip">13. Avis sur L'IP</h4>
+<h2 id="mes-administrations">Mes Administrations</h2>
+<h3 id="liste-des-administrations">Liste des Administrations</h3>
+<h3 id="historique-des-administrations">Historique des Administrations</h3>
+<h2 id="mes-demandes-dexamens">Mes Demandes D'examens</h2>
+<h3 id="liste-des-demandes-dexamens">Liste des demandes d'examens</h3>
+<h3 id="historiqe-des-demandes-dexamens-faites">Historiqe des demandes d'examens faites</h3>
+<h2 id="mon-armoire-pharmaceutique">Mon Armoire Pharmaceutique</h2>
+<h3 id="mes-prescriptions-a-analyser">Mes Prescriptions à Analyser</h3>
+<h3 id="mes-prescriptions-analysees">Mes Prescriptions Analysées</h3>
+<h3 id="mes-educations-therapeutiques">Mes Educations Thérapeutiques</h3>
+<h3 id="mes-observances">Mes Observances</h3>
+<h3 id="pharmacologie-formulaire">Pharmacologie Formulaire</h3>
+<h2 id="mon-agenda">Mon Agenda</h2>
+<h2 id="outils">Outils</h2>
+<h3 id="bibliotheque">Bibliothèque</h3>
+<h3 id="clairance-calculateur">Clairance Calculateur</h3>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../admin/" class="btn btn-neutral" title="Administrateur"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../admin/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

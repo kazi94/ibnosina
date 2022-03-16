@@ -1,0 +1,1 @@
+</div><?php /**PATH C:\laragon\www\anapharm\resources\views\user\patient\create_rapide.blade.php ENDPATH**/ ?>

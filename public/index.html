@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link href="http://localhost:8000/images/logo.png" type="image/png" rel="icon">
+    <meta name="csrf-token" content="fbHycY5SA7GOGnKQRMk2r3wV1maeqHCaKsRmwrk4">
+    <link rel="stylesheet" href="http://localhost:8000/css/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://localhost:8000/css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://localhost:8000/css/Ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="http://localhost:8000/css/AdminLTE.min.css">
+
+    <link rel="stylesheet" href="http://localhost:8000/css/skins/skin-blue.min.css">
+    <link rel="stylesheet" href="http://localhost:8000/js/datatables.net-bs/css/dataTables.bootstrap.css">
+    <link rel="stylesheet" href="http://localhost:8000/plugins/select2/dist/css/select2.min.css">
+    <link rel="stylesheet" href="http://localhost:8000/css/toastr.css">
+    <link rel="stylesheet" href="http://localhost:8000/css/jquery_ui.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Raleway|Roboto|Barlow:wght@300|Rubik:wght@50&display=swap">
+    <link rel="stylesheet" href="http://localhost:8000/plugins/iCheck/all.css">
+    <link rel="stylesheet" href="http://localhost:8000/plugins/EasyAutocomplete-1.3.5/easy-autocomplete.min.css">
+    <link rel="stylesheet" href="http://localhost:8000/css/style.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+
+<body class="hold-transition skin-blue sidebar-mini ">
+    <!-- <div class="se-pre-con"></div> -->
+    <div>
+        <p class="roleMedecin" style="display: none;"> on </p>
+        <p class="rolePharmacien" style="display: none;">on </p>
+    </div>
+    <div class="wrapper" id="app">
+
+
+        <header class="main-header">
+            <!-- Logo -->
+            <a href="http://localhost:8000/home" class="logo">
+                <!-- mini logo for sidebar mini 50x50 pixels -->
+                <span class="logo-mini"><b>A</b><b style="color:#fc1313">P</b><b style="color:#04ff04">H</b></span>
+                <!-- logo for regular state and mobile devices -->
+                <span class="logo-lg"><b>Ana</b><b style="color:#fc1313">PHARM</b><b style="color:#04ff04">Dz</b></span>
+            </a>
+            <!-- Header Navbar -->
+            <nav class="navbar navbar-static-top" role="navigation">
+                <!-- Sidebar toggle button-->
+                <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                </a>
+                <!-- Navbar Right Menu -->
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav fa-1x">
+                        <!-- Notifications Menu -->
+
+                        <li class="dropdown notifications-menu">
+                            <!-- Menu toggle button -->
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-bell-o"></i>
+
+                                <span class='label label-warning'>3</span>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="header">Vous avez 3 nouvelles
+                                    notifications</li>
+                                <!--  -->
+                                <li>
+                                    <ul class="menu">
+                                        <li style="background: #E4E9F2;">
+                                            <a href="http://localhost:8000/patient/5&amp;15"
+                                                title="Prescription num 15 ,Prescrit par Dr.Admin Super Admin, à risque">
+                                                <i class="fa fa-users text-aqua"></i> Prescription
+                                                num°15
+                                                ,Prescrit par Dr.Admin
+                                                Super Admin, à risque
+                                            </a>
+                                        </li>
+                                        <!-- end notification -->
+                                    </ul>
+                                    <ul class="menu">
+                                        <li style="background: #E4E9F2;">
+                                            <a href="http://localhost:8000/patient/7&amp;16"
+                                                title="Prescription num 16 ,Prescrit par Dr.Admin Super Admin, à risque">
+                                                <i class="fa fa-users text-aqua"></i> Prescription
+                                                num°16
+                                                ,Prescrit par Dr.Admin
+                                                Super Admin, à risque
+                                            </a>
+                                        </li>
+                                        <!-- end notification -->
+                                    </ul>
+                                    <ul class="menu">
+                                        <li style="background: #E4E9F2;">
+
+                                            <a href="http://localhost:8000/patient/3/edit"
+                                                title="Prescription num°3 est analysé par Dr.Admin Super Admin .Le : 2020-09-14 11:10:26 ">
+                                                <i class="fa fa-users text-aqua"></i> Prescription
+                                                num°3 est analysé par
+                                                Dr.Admin
+                                                Super Admin .Le
+                                                : 2020-09-14 11:10:26
+                                            </a>
+                                        </li>
+                                        <!-- end notification -->
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Messages: style can be found in dropdown.less -->
+
+
+
+
+
+
+
+                        <!-- Appointements Notification Menu -->
+                        <li class="dropdown  messages-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                title="Vous avez  0 rendez-vous aujourd'hui">
+                                <i class="fa fa-flag-o"></i>
+                                <span class="label label-primary">0</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="header">Vous avez 0 rendez-vous aujourd'hui</li>
+                                <li class="footer">
+                                    <a href="http://localhost:8000/appointement">Allez vers le calendrier</a>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                        <li> <a href="http://localhost:8000/help"><i class="fa fa-info"
+                                    title="Aide et assistance"></i></a> </li>
+
+                        <li class="">
+
+                            <a href="http://localhost:8000/logout" onclick="event.preventDefault();
+                        document.getElementById('logout-form').submit();">
+                                <i class="fa  fa-sign-out" title="Se déconnecter"></i>
+                            </a>
+                            <form id="logout-form" action="http://localhost:8000/logout" method="POST"
+                                style="display: none;">
+                                <input type="hidden" name="_token" value="fbHycY5SA7GOGnKQRMk2r3wV1maeqHCaKsRmwrk4">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+        <aside class="main-sidebar">
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+                <!-- Sidebar user panel (optional) -->
+
+                <div class="user-panel">
+                    <div class="pull-left image">
+                        <img src="https://ui-avatars.com/api/?name=Admin+Super Admin  " class="img-circle"
+                            alt="User Image">
+                    </div>
+                    <div class="pull-left info">
+                        <p>
+                            Mr.Admin
+                            ,<br> <small>Admin</small>
+                            ,<br></small>SuperAdministrateur</small>
+                        </p>
+                        <!-- Status -->
+                        <a href="#"><i class="fa fa-circle text-success"></i> En ligne</a>
+                    </div>
+                </div>
+
+                <div action="" method="" class="sidebar-form" style="overflow: inherit">
+                    <div class="input-group">
+                        <input type="hidden" name="patient_pick">
+                        <input type="text" name="q" class="form-control" placeholder="Rechercher..." autocomplete="off">
+                        <div class="input-group-btn">
+                            <button type="button" name="search" class="btn btn-flat"><a href="" class="pick_patient"><i
+                                        class="fa fa-search" style="margin-top:-0px;"></i> </a></button>
+                            <div class="btn-group" role="group">
+                                <div class="dropdown dropdown-lg">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                                        aria-expanded="false"><span class="caret"></span></button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.search form -->
+
+                <!-- Sidebar Menu -->
+                <ul class="sidebar-menu" data-widget="tree">
+                    <li class="header">PRINCIPALE</li>
+                    <!-- Optionally, you can add icons to the links -->
+
+                    <li class="treeview">
+                        <a href="#"><i class="fa fa-user"></i> <span>Comptes</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+
+                            <li>
+                                <a href="http://localhost:8000/admin/userEx"><i class="fa fa-user-plus"></i>
+                                    <span>Utilisateurs
+                                        Externes</span>
+                                    <span class="pull-right-container">
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="http://localhost:8000/admin/user"><i class="fa fa-user-plus"></i>
+                                    <span>Utilisateurs
+                                        Internes</span>
+                                    <span class="pull-right-container">
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="http://localhost:8000/admin/compte"><i class="fa fa-user-plus"></i>
+                                    <span>Comptes
+                                        Patients</span>
+                                    <span class="pull-right-container">
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="http://localhost:8000/admin/profile"><i class="fa fa-users"></i>
+                                    <span>Profils</span>
+                                    <span class="pull-right-container"></span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="treeview">
+                        <a href="#"><i class="fa fa-gears"></i> <span>Paramètres</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="http://localhost:8000/admin/element"><i class="fa fa-flask"></i>
+                                    <span>Bilans</span>
+                                    <span class="pull-right-container">
+                                    </span>
+                                </a>
+                            </li>
+
+
+
+                            <li>
+                                <a href="http://localhost:8000/admin/dashboard"><i class="fa fa-bar-chart-o"></i>
+                                    <span>Les Tableaux de
+                                        bord</span>
+                                    <span class="pull-right-container">
+                                    </span>
+                                </a>
+                            </li>
+
+
+                            <li>
+                                <a href="http://localhost:8000/admin/specialite"><i class="fa fa-gear"></i>
+                                    <span>Création d'une
+                                        spécialité</span>
+                                    <span class="pull-right-container">
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="http://localhost:8000/admin/produit"><i
+                                        class="fa fa-leaf"></i><span>Phytothérapeutes</span>
+                                    <span class="pull-right-container"></span>
+                                </a>
+                            </li>
+
+
+                            <li>
+                                <a href="http://localhost:8000/admin/regle"><i class="fa fa-gear"></i> <span>Règles de
+                                        pré-analyse</span>
+                                    <span class="pull-right-container">
+                                    </span>
+                                </a>
+                            </li>
+
+
+
+
+                            <li>
+                                <a href="http://localhost:8000/admin/questionnaires"><i class="fa fa-gear"></i>
+                                    <span>Paramètres des
+                                        Questionnaires</span>
+                                    <span class="pull-right-container">
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/admin/settings"><i class="fa fa-flask"></i> <span>Création des
+                                        paramètres</span>
+                                    <span class="pull-right-container">
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="treeview">
+                                <a href="#">
+                                    <i class="fa fa-gears"></i> <span>Chimiothérapie</span>
+                                    <span class="pull-right-container">
+                                        <i class="fa fa-angle-left pull-right"></i>
+                                    </span>
+                                </a>
+                                <ul class="treeview-menu" style="display: none;">
+                                    <li>
+                                        <a href="http://localhost:8000/chimio/parametres"><i
+                                                class="fa fa-wrench"></i><span>&nbsp;Paramètre
+                                                générale</span>
+                                        </a>
+                                    </li>
+
+                                    <li><a href="http://localhost:8000/chimio/listProtocole"><img
+                                                src="http://localhost:8000/images/74111.png"
+                                                style="width: 8%">&nbsp;&nbsp;Lister les protocoles</a></li>
+                                    <li><a href="http://localhost:8000/chimio/listMaladie"><img
+                                                src="http://localhost:8000/images/7411.png"
+                                                style="width: 8%">&nbsp;&nbsp;Lister les maladies</a></li>
+                                    <li>
+                                        <a href="http://localhost:8000/chimio/preparation"><i
+                                                class="fa fa-flask"></i><span>&nbsp;Dash
+                                                préparateurs</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="treeview">
+                        <a href="#"><i class="fa fa-wheelchair"></i> <span>DMP</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="http://localhost:8000/patient/create"><i class="fa fa-plus-square"></i>
+                                    <span>Ajouter
+                                        patient</span>
+                                    <span class="pull-right-container"></span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="http://localhost:8000/patient"><i class="fa fa-list-alt"></i> <span>Liste des
+                                        patients</span>
+                                    <span class="pull-right-container"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="treeview">
+                        <a href="#"><i class="fa fa-folder-open"></i> <span>Dossier pharmaceutique</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="http://localhost:8000/analyse"><i class="fa fa-list-alt"></i>
+                                    <span>Préscription à
+                                        analyser</span></a>
+                            </li>
+
+                            <li>
+                                <a href="http://localhost:8000/analyses"><i class="fa fa-list-alt"></i> <span>Education
+                                        thérapeutique</span>
+                                    <span class="pull-right-container">
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="http://localhost:8000/ip/history"><i class="fa fa-list-alt"></i>
+                                    <span>Historique
+                                        IP</span>
+                                    <span class="pull-right-container"></span></a>
+                            </li>
+
+                            <li>
+                                <a href="http://localhost:8000/patient/questionnaire/1"><i class="fa fa-list-alt"></i>
+                                    <span>Historique Observances</span>
+                                    <span class="pull-right-container"></span></a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li class="treeview">
+                        <a href="#"><i class="fa fa-file-text "></i> <span>Pharmacovigilance</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+
+                            <li>
+                                <a href="http://localhost:8000/admin/pharmaco"><i class="fa fa-file-text-o"></i>
+                                    <span>Formulaire
+                                        pharmacovigilance</span></a>
+                            </li>
+
+                            <li>
+                                <a href="http://localhost:8000/admin/pharmacoList1"><i class="fa fa-list"></i>
+                                    <span>Liste enregistrée</span>
+                                    <span class="pull-right-container">
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="http://localhost:8000/admin/pharmacolist2"><i class="fa fa-list"></i>
+                                    <span>Liste envoyée</span>
+                                    <span class="pull-right-container">
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="treeview">
+                        <a href="#"><i class="fa fa-star"></i> <span>Divers</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="http://localhost:8000/appointement"><i class="fa fa-calendar-check-o"></i>
+                                    <span>Rendez-vous</span></a>
+                            </li>
+                            <li>
+                                <a href="http://localhost:8000/admin/stats"><i class="fa fa-bar-chart-o"></i>
+                                    <span>Statistiques</span></a>
+                            </li>
+
+
+                        </ul>
+                    </li>
+
+                </ul>
+                <!-- /.sidebar-menu -->
+            </section>
+            <!-- /.sidebar -->
+        </aside>
+        <!-- Main Header -->
+
+
+
+        <div class="content-wrapper">
+            <section class="content">
+
+                <!-- Button trigger modal-->
+                <button type="button" class="btn btn-primary" data-toggle="modal"
+                    data-target="#modalAbandonedCart">Launch
+                    modal</button>
+
+                <!-- Modal: modalAbandonedCart-->
+                <div class="modal fade right" id="modalAbandonedCart" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
+                    <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" role="document">
+                        <!--Content-->
+                        <div class="modal-content">
+                            <!--Header-->
+                            <div class="modal-header">
+                                <p class="">Product in the cart
+                                </p>
+
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true" class="white-text">&times;</span>
+                                </button>
+                            </div>
+
+                            <!--Body-->
+                            <div class="modal-body">
+
+                                <div class="row">
+                                    <div class="col-3">
+                                        <p></p>
+                                        <p class="text-center"><i class="fas fa-shopping-cart fa-4x"></i></p>
+                                    </div>
+
+                                    <div class="col-9">
+                                        <p>Do you need more time to make a purchase decision?</p>
+                                        <p>No pressure, your product will be waiting for you in the cart.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Footer-->
+                            <div class="modal-footer justify-content-center">
+                                <a type="button" class="btn btn-info">Go to cart</a>
+                                <a type="button" class="btn btn-outline-info waves-effect"
+                                    data-dismiss="modal">Cancel</a>
+                            </div>
+                        </div>
+                        <!--/.Content-->
+                    </div>
+                </div>
+                <!-- Modal: modalAbandonedCart-->
+
+                <div class="row">
+
+                    <div class="col-sm-5 col-sm-offset-3">
+                        <div class="box box-info">
+
+
+
+                            <div class="box-body">
+
+                                <h1 class="text-center">Bienvenue Mr.Admin Super Admin</h1>
+                                <p class="text-center">Votre dernière connexion 2020-09-16 19:56:31 </p>
+                                <p class="text-center">Adresse IP 127.0.0.1 </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </section>
+        </div>
+
+
+
+
+        <footer class="main-footer">
+
+            <!-- Default to the left -->
+            <strong> Copyright &copy; 2020 <a href="www.hic-sante.com">hic-sante.com</a>.</strong> Touts droits
+            réservés.
+            <a href="/bugs_report" class=" btn btn-primary pull-right btn-primary">Signaler une erreur?</a>
+
+        </footer>
+
+
+    </div>
+
+
+</body>
+<script src="http://localhost:8000/js/jquery/jquery.min.js"> </script>
+<script src="http://localhost:8000/js/jquery/jquery-ui.min.js"> </script>
+<script src="http://localhost:8000/css/bootstrap/dist/js/bootstrap.min.js"> </script>
+<script src="http://localhost:8000/js/adminlte.min.js"> </script>
+<script src="http://localhost:8000/js/datatables.net/js/jquery.dataTables.js"> </script>
+<script src="http://localhost:8000/js/datatables.net-bs/js/dataTables.bootstrap.min.js"> </script>
+<script src="http://localhost:8000/plugins/iCheck/icheck.min.js"> </script>
+<script src="http://localhost:8000/plugins/select2/dist/js/select2.full.min.js"> </script>
+<script src="http://localhost:8000/js/fastclick.js"> </script>
+<script src="http://localhost:8000/js/toastr.js"> </script>
+<!-- script src="http://localhost:8000/js/app.js">                                        </script> -->
+
+<script src="http://localhost:8000/js/toastr.js"></script>
+<script>
+    $(function () {
+        if ($("#message").text()) {
+            toastr.options = {
+                "closeButton": false,
+                "debug": false,
+                "newestOnTop": false,
+                "progressBar": false,
+                "positionClass": "toast-bottom-center",
+                "preventDuplicates": false,
+                "onclick": null,
+                "showDuration": "300",
+                "hideDuration": "1000",
+                "timeOut": "3000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+            }
+            toastr.success($("#message").text());
+        }
+    })
+</script>
+
+
+<script>
+    $(document).ready(function () {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");
+    });
+    $(function () {
+        const idleDurationSecs = 1800; // X number of seconds
+        const redirectUrl = '/app'; // Redirect idle users to this URL
+        let idleTimeout; // variable to hold the timeout, do not modify
+        FastClick.attach(document.body);
+        $('.select2').select2();
+
+        $('input[type="checkbox"].flat-red, input[type="radio"].flat-red').iCheck({
+            checkboxClass: 'icheckbox_flat-green',
+            radioClass: 'iradio_flat-green'
+        });
+
+        if ($(".message").text()) {
+            toastr.options = {
+                "closeButton": false,
+                "debug": false,
+                "newestOnTop": false,
+                "progressBar": false,
+                "positionClass": "toast-bottom-center",
+                "preventDuplicates": false,
+                "onclick": null,
+                "showDuration": "600",
+                "hideDuration": "1000",
+                "timeOut": "10000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+            }
+            toastr.success($(".message").text());
+        }
+
+        $("input[name='q']").keydown(function () {
+            $(this).autocomplete({
+                appendTo: $(this)
+                    .parent(), // selectionner l'element pour ajouter la liste des suggestion
+                source: function (request, response) {
+                    $.ajax({
+                        headers: {
+                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr(
+                                'content')
+                        },
+                        url: "/patient/all",
+                        method: "POST",
+                        data: {
+                            phrase: request.term // value on field input
+                        },
+                        success: function (data, status, code) {
+                            response($.map(data, function (item) {
+                                return {
+                                    label: item.nom + " " + item
+                                        .prenom, // pour afficher dans la liste des suggestions
+                                    value: item.nom + " " + item
+                                        .prenom,
+                                    pat_id: item
+                                        .id // value c la valeur à mettre dans l'input this
+                                };
+                            }));
+                        }
+                    });
+                }, // END SOURCE
+                minLength: 1,
+                select: function (event, ui) {
+                    // $(this).prev().val(ui.item.pat_id);vg
+                    $('.pick_patient').attr('href', '/patient/' + ui.item.pat_id +
+                        '/edit');
+                },
+                open: function () {
+                    $(this).removeClass("ui-corner-all").addClass("ui-corner-top");
+                },
+                close: function () {
+                    $(this).removeClass("ui-corner-top").addClass("ui-corner-all");
+                }
+            }).data("ui-autocomplete")._renderItem = function (ul, item) {
+                return $("<li style='font-weight:bold;'></li>").data("item.autocomplete", item)
+                    .append(" " + item.label).appendTo(ul);
+            };
+        });
+
+        const resetIdleTimeout = function () {
+
+            // Clears the existing timeout
+            if (idleTimeout) clearTimeout(idleTimeout);
+
+            // Set a new idle timeout to load the redirectUrl after idleDurationSecs
+            idleTimeout = setTimeout(() => location.href = redirectUrl, idleDurationSecs * 1000);
+        };
+
+        // Init on page load
+        resetIdleTimeout();
+
+        // Reset the idle timeout on any of the events listed below
+        ['click', 'touchstart', 'mousemove'].forEach(evt =>
+            document.addEventListener(evt, resetIdleTimeout, false)
+        );
+
+
+
+    });
+</script>
+
+</html>

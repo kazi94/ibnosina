@@ -1,0 +1,17 @@
+ Ajout de la consultation rapide dans l'interface Ajouter Patient
+ Ajout d'un commentaire l'orsque l'utilique décide de stoppé l'administration du médicament
+Le travaille du patient s'affiche correctement dans la liste des patients
+
+ ajout du nombre de paquets par jours
+ change paquet to cigarettes et arreter depuis a tinyint 4
+ Ajout du bouton imprimer education thérapeutique
+ Ajout du bouton imprimer intervention pharmaceutique
+ correction d'un beug au niveau des case à cocher des prises de médicaments
+ en cas de décé ou de sortie le patient est correctemetn archivé
+ Désormais le médecin peu voir dans quel ligne de médicament le niveau de problème concerné (représenter par un code couleur)
+ l'ors de la saise de plante  en rabe/français l'utilisatuer peut visualiser l'équivalent de la plante en langue étrangère (arabe/français)
+
+
+
+ BDD
+ suppression du champ ant_fam table patient

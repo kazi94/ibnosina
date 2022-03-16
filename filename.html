@@ -1,0 +1,817 @@
+
+<!DOCTYPE html>
+<html lang='fr'>
+    
+    <head>
+    <title></title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap' rel='stylesheet'>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <meta name='csrf-token' content='Dzeky6OR2G6769y1zOWnZSYC9GRSwmtCRR8qGsza'>
+    <link rel='icon'       href='http://localhost:8000/images/logo.png'>
+    <link rel='stylesheet' href='http://localhost:8000/bddm/css/bootstrap.css'>
+<link rel='stylesheet' href='http://localhost:8000/bddm/fonts/all.min.css'>        
+<link rel='stylesheet' href='http://localhost:8000/css/Ionicons/css/ionicons.min.css'>
+<link rel='stylesheet' href='http://localhost:8000/bddm/css/jquery_ui.css'>
+<link rel='stylesheet' type='text/css' href='https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css'>
+<link rel='stylesheet' type='text/css' href='https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css'>
+<link rel='stylesheet' href='http://localhost:8000/plugins/EasyAutocomplete-1.3.5/easy-autocomplete.min.css'>
+<link rel='stylesheet' href='http://localhost:8000/plugins/EasyAutocomplete-1.3.5/easy-autocomplete.themes.min.css'>
+<link rel='stylesheet' href='http://localhost:8000/bddm/css/main.css'>
+</head>
+    <body>
+        <div class='d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom shadow-sm'>
+  
+  
+  
+  <nav class='my-2 my-md-0 mr-md-3 offset-md-3'>
+    <a class='p-2 text-dark' href='#'>A-propos</a>
+    
+    <a class='p-2 text-dark' href='#'>Nos Formations</a>
+    <a class='p-2 text-dark' href='#'>Nos Prestation</a>
+    <a class='p-2 text-dark' href='#'>Nos Partenaires</a>
+  </nav>
+  
+</div>
+
+        <div class='container-fluid'>
+
+            <div class='row d-flex justify-content-center' style='background-color: #00e7ffc2; background-image: linear-gradient(to bottom right, #008bb594, #ffff0082);'>
+    <div class='bg-white col-sm-7 p-3 shadow m-3'>
+        <h1 style='text-align: center'>Recherchez votre médicament</h1>
+        <div class='input-group mb-3'>
+          
+          <input id='med_search' style='min-width:0px' class='form-control' placeholder='Entrer le nom commercial d'un médicament' >
+                            
+        </div>                  
+    
+        <ul class='nav nav-pills justify-content-center'>
+            <div class='sport-item'>
+                <a href='http://localhost:8000/medicaments'>
+                    <div class='img-wrapper'>
+                        <img class='js-img-lazy js-img-lazy-loaded' src='http://localhost:8000/bddm/images/icon-3.png'  alt='' style='width:80px;height:80px' data-lazy-fade='1000' >
+                    </div>
+                    <div class='sports-label'>MEDICAMENTS</div>
+                </a>
+            </div>
+            <div class='sport-item'>
+                <a href='http://localhost:8000/substances'>
+                    <div class='img-wrapper'>
+                        <img class='js-img-lazy js-img-lazy-loaded' src='http://localhost:8000/bddm/images/icon-1.png'  alt='' style='width:80px;height:80px' data-lazy-fade='1000' >
+                    </div>
+                    <div class='sports-label'>SUBSTANCES</div>
+                </a>
+            </div>    
+            <div class='sport-item'>
+                <a href='http://localhost:8000/classes'>
+                    <div class='img-wrapper'>
+                        <img class='js-img-lazy js-img-lazy-loaded' src='http://localhost:8000/bddm/images/icon-2.png'  alt='' style='width:80px;height:80px' data-lazy-fade='1000' >
+                    </div>
+                    <div class='sports-label'>CLASSES ATC</div>
+                </a>
+            </div>    
+            <div class='sport-item'>
+                <a href='http://localhost:8000/indications'>
+                    <div class='img-wrapper'>
+                        <img class='js-img-lazy js-img-lazy-loaded' src='http://localhost:8000/bddm/images/icon-4.png'  alt='' style='width:80px;height:80px' data-lazy-fade='1000' >
+                    </div>
+                    <div class='sports-label'>INDICATIONS</div>
+                </a>
+            </div>
+        </ul>
+    </div>
+</div>
+
+
+
+
+                <div class='row'>
+    
+    <div class='col-sm-10 mt-1'>
+        <nav aria-label='breadcrumb'>
+      <ol class='breadcrumb' style='background-color: white'>
+        
+        <li class='breadcrumb-item'><a href='http://localhost:8000/medicaments'><i class='fas fa-capsules'></i> Médicaments</a></li>
+        <li class='breadcrumb-item active' aria-current='page'>ASPIRINE RCA 500MG CPR <span class='badge badge-danger'>SP</span></li>
+      </ol>
+    </nav>
+    </div>
+    <div class='d-block px-5 py-xl-3 noVisit'>
+      <a href='#print'    role='button' onclick='window.print()'><i class='fas fa-print'></i> Print</a>
+      
+      <a href='#bookmark' role='button' onclick='ga('send', 'social', 'DDC', 'Save or Share Top');'><i class='fas fa-share'></i> Share</a>
+    </div>
+</div>
+
+
+
+            <h1>ASPIRINE RCA 500MG CPR</h1>
+            <p >ACIDE ACETYLSALICYLIQUE 500 MG <span class='badge badge-pill badge-success'>DCI</span> </p>
+            
+        <div class='col-sm-10 bhoechie-tab-container'>
+            <div class='row  d-flex justify-content-center'>
+            <div class='col-sm-3 bhoechie-tab-menu'>
+              <div class='list-group'>
+                
+                
+                <a href='#' class='list-group-item text-center'>
+                  <h4 class='fas fa-arrow-alt-circle-right fa-2x '></h4><br/>Indications
+                </a>
+                <a href='#' class='list-group-item text-center'>
+                  <h4 class='fas fa-clock fa-2x '></h4><br/>Posologie/Administration
+                </a>
+                <a href='#' class='list-group-item text-center'>
+                  <h4 class='fas fa-thermometer-three-quarters fa-2x  '></h4><br/>Contre Indication
+                </a>
+                <a href='#' class='list-group-item text-center'>
+                  <h4 class='fas fa-thermometer-quarter fa-2x  '></h4><br/>Effets indésirables
+                </a>
+                                                               
+              </div>
+            </div>
+            <div class='col-sm-9 bhoechie-tab'>
+                <!-- flight section -->
+                <div class='bhoechie-tab-content active'>
+                    <center>
+                      <h1 class=' -plane' style='font-size:14em;color:#EC790C'></h1>
+                      <h2 style='margin-top: 0;color:#EC790C'>Indications</h2>
+                      <br>
+        
+                    </center>
+                    <h3 style='color:#EC790C'> Types de maladies</h3>
+                    <ul class='list-group list-group-flush'>
+                                              <li class='list-group-item'> ETAT FEBRILE </li>
+                                              <li class='list-group-item'> DOULEUR </li>
+                                              <li class='list-group-item'> RHUMATISME INFLAMMATOIRE CHRONIQUE </li>
+                                              <li class='list-group-item'> RHUMATISME INFLAMMATOIRE </li>
+                                              <li class='list-group-item'> RHUMATISME ARTICULAIRE AIGU </li>
+                                          </ul>
+                </div>
+                <!-- train section -->
+                <div class='bhoechie-tab-content'>
+                    <center>
+                      <h1 class=' -road' style='font-size:12em;color:#EC790C'></h1>
+                      <h2 style='margin-top: 0;color:#EC790C'>Posologie(s)</h2>
+                      <br>
+                      
+                    </center>
+                    <table class='table'>
+                                              <tr>
+                            <td><b>Protocole posologique N°1</b></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                                                      <td>Cas Physiopathologique</td>
+                                                          <td>
+                                                                  ADULTE <br/>
+                                                                  ENFANT A PARTIR DE 50 KG <br/>
+                                                              </td>
+                                                  </tr>
+                          <tr>
+                                                          <td>Indication</td>
+                                                              <td>
+                                                                      ETAT FEBRILE <br/>
+                                                                  </td>
+                            
+                          </tr>
+                                              <tr>
+                            <td><b>Protocole posologique N°2</b></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                                                      <td>Cas Physiopathologique</td>
+                                                          <td>
+                                                                  ADULTE <br/>
+                                                                  ENFANT A PARTIR DE 50 KG <br/>
+                                                              </td>
+                                                  </tr>
+                          <tr>
+                                                          <td>Indication</td>
+                                                              <td>
+                                                                      DOULEUR <br/>
+                                                                  </td>
+                            
+                          </tr>
+                                              <tr>
+                            <td><b>Protocole posologique N°3</b></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                                                      <td>Cas Physiopathologique</td>
+                                                          <td>
+                                                                  SUJET AGE <br/>
+                                                              </td>
+                                                  </tr>
+                          <tr>
+                                                          <td>Indication</td>
+                                                              <td>
+                                                                      DOULEUR <br/>
+                                                                  </td>
+                            
+                          </tr>
+                                              <tr>
+                            <td><b>Protocole posologique N°4</b></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                                                      <td>Cas Physiopathologique</td>
+                                                          <td>
+                                                                  SUJET AGE <br/>
+                                                              </td>
+                                                  </tr>
+                          <tr>
+                                                          <td>Indication</td>
+                                                              <td>
+                                                                      ETAT FEBRILE <br/>
+                                                                  </td>
+                            
+                          </tr>
+                                              <tr>
+                            <td><b>Protocole posologique N°5</b></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                                                      <td>Cas Physiopathologique</td>
+                                                          <td>
+                                                                  ENFANT A PARTIR DE 30 KG DE MOINS DE 40 KG <br/>
+                                                              </td>
+                                                  </tr>
+                          <tr>
+                                                          <td>Indication</td>
+                                                              <td>
+                                                                      ETAT FEBRILE <br/>
+                                                                  </td>
+                            
+                          </tr>
+                                              <tr>
+                            <td><b>Protocole posologique N°6</b></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                                                      <td>Cas Physiopathologique</td>
+                                                          <td>
+                                                                  ENFANT A PARTIR DE 41 KG DE MOINS DE 50 KG <br/>
+                                                              </td>
+                                                  </tr>
+                          <tr>
+                                                          <td>Indication</td>
+                                                              <td>
+                                                                      ETAT FEBRILE <br/>
+                                                                  </td>
+                            
+                          </tr>
+                                              <tr>
+                            <td><b>Protocole posologique N°7</b></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                                                      <td>Cas Physiopathologique</td>
+                                                          <td>
+                                                                  ENFANT A PARTIR DE 30 KG DE MOINS DE 40 KG <br/>
+                                                              </td>
+                                                  </tr>
+                          <tr>
+                                                          <td>Indication</td>
+                                                              <td>
+                                                                      DOULEUR <br/>
+                                                                  </td>
+                            
+                          </tr>
+                                              <tr>
+                            <td><b>Protocole posologique N°8</b></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                                                      <td>Cas Physiopathologique</td>
+                                                          <td>
+                                                                  ENFANT A PARTIR DE 41 KG DE MOINS DE 50 KG <br/>
+                                                              </td>
+                                                  </tr>
+                          <tr>
+                                                          <td>Indication</td>
+                                                              <td>
+                                                                      DOULEUR <br/>
+                                                                  </td>
+                            
+                          </tr>
+                                          </table>
+                    <br>
+                </div>
+    
+                <!-- hotel search -->
+                <div class='bhoechie-tab-content'>
+                    <center>
+                      <h1 class=' -home' style='font-size:12em;color:#EC790C'></h1>
+                      <h2 style='margin-top: 0;color:#EC790C'>Contres Indications</h2>
+                      <br>
+                      
+                    </center>
+                    <table class='table'>
+                                              <tr>
+                          <td> <b>Cas Physiopathologique:</b> </td>
+                          <td></td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE AMIDON DE BLE/GLUTEN </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> ENFANT DE MOINS DE 6 ANS </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE CROISEE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE A L&#039;UN DES EXCIPIENTS </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE ASPIRINE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE SALICYLES </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> ACCIDENT VASCUL CEREBRAL ATCD PERSONNEL </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> INSUFF CARDIAQUE SEVERE CLASSE IV </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> INSUFF CARDIAQUE NON CONTROLEE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> ULCERE GASTRODUODENAL EN EVOLUTION </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HEMORRAGIE DIGESTIVE EN COURS </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> SAIGNEMENT GASTRO-INTESTINAL EN COURS </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> MALADIE HEMORRAGIQUE ACQUISE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> MALADIE HEMORRAGIQUE CONSTITUTIONNELLE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> INSUFFISANCE HEPATIQUE SEVERE MALADIE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> TRT PAR AINS </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> TRT PAR SALICYLE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> INSUFFISANCE RENALE SEVERE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> GROSSESSE TROISIEME TRIMESTRE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> TRT PAR ANTICOAGULANT ORAL </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> TRT PAR METHOTREXATE A FORTE DOSE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> TRT PAR PEMETREXED </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> TRT PAR CLOPIDOGREL </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> TRT PAR HBPM </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> TRT PAR HEPARINOIDE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> TRT PAR HEPARINE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> TRT PAR TICLOPIDINE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> TRT PAR URICOSURIQUE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> ENFANT DE MOINS DE 20 KG </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE TENOXICAM </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE CELECOXIB </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE ROFECOXIB </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE MEFENAMIQUE ACIDE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE PHENAZONE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE NIFLUMIQUE ACIDE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE ACIDE TIAPROFENIQUE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE SULINDAC </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE OLSALAZINE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE CARBASALATE CALCIQUE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE SALICYLIQUE/SALICYLATE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE THIOMERSAL </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE ACETYLSALICYLATE METHYL </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE ETODOLAC </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE FENTIAZAC </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE SALOL </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE BUFEXAMAC </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE DIETHYLSALICYLAMIDE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE SALICYLAMIDE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE PARECOXIB </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE DIFLUNISAL </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE SAULE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE ACECLOFENAC </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE ETORICOXIB </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE DEXKETOPROFENE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE PARA AMINOSALICYLIQ AC </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE BENZYDAMINE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE DICLOFENAC </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE FLOCTAFENINE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE FLURBIPROFENE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE IBUPROFENE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE INDOMETACINE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE KETOPROFENE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE KETOROLAC TROMETHAMINE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE MELOXICAM </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE MESALAZINE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE NAPROXENE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE NIMESULIDE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE PHENYLBUTAZONE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE PIROXICAM </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE NABUMETONE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE SULFASALAZINE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE FENOPROFENE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE ALMINOPROFENE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE INHIB PROSTAGLANDINE </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE OXICAMS </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE AINS </td>
+                        </tr>
+                                              <tr>
+                          <td></td>
+                          <td> HYPERSENSIBILITE PYRAZOLES </td>
+                        </tr>
+                                          </table>                     
+                </div>
+                <div class='bhoechie-tab-content'>
+                    <center>
+                      <h1 class=' -cutlery' style='font-size:12em;color:#EC790C'></h1>
+                      <h2 style='margin-top: 0;color:#EC790C'>Effets indésirables</h2>
+                      <br>
+                      
+                    </center>
+                    <ul class='list-group list-group-flush'>
+                                                <li class='list-group-item'> OEDEME PULMONAIRE </li>
+                                                <li class='list-group-item'> HYPOACOUSIE / SURDITE </li>
+                                                <li class='list-group-item'> ACOUPHENE / BOURDONNEMENT D&#039;OREILLE </li>
+                                                <li class='list-group-item'> AUDITION ALTERATION </li>
+                                                <li class='list-group-item'> GINGIVORRHAGIE </li>
+                                                <li class='list-group-item'> EPISTAXIS </li>
+                                                <li class='list-group-item'> PURPURA </li>
+                                                <li class='list-group-item'> MENORRAGIE </li>
+                                                <li class='list-group-item'> SAIGNEMENT / HEMORRAGIE </li>
+                                                <li class='list-group-item'> HEMATOME </li>
+                                                <li class='list-group-item'> HEMORRAGIE URO-GENITALE </li>
+                                                <li class='list-group-item'> SAIGNEMENT GASTROINTESTINAL </li>
+                                                <li class='list-group-item'> MELENA </li>
+                                                <li class='list-group-item'> HEMORRAGIE CEREBRALE </li>
+                                                <li class='list-group-item'> HEMORRAGIE DIGESTIVE </li>
+                                                <li class='list-group-item'> HEMOLYSE </li>
+                                                <li class='list-group-item'> RECTORRAGIE </li>
+                                                <li class='list-group-item'> HEMATEMESE </li>
+                                                <li class='list-group-item'> HEPATITE </li>
+                                                <li class='list-group-item'> ENCEPHALOPATHIE HEPATIQUE </li>
+                                                <li class='list-group-item'> ATTEINTE HEPATIQUE </li>
+                                                <li class='list-group-item'> INSUFFISANCE HEPATIQUE </li>
+                                                <li class='list-group-item'> REYE SYNDROME </li>
+                                                <li class='list-group-item'> NAUSEE VOMISSEMENT </li>
+                                                <li class='list-group-item'> DELIRE </li>
+                                                <li class='list-group-item'> COMA </li>
+                                                <li class='list-group-item'> CONVULSION </li>
+                                                <li class='list-group-item'> HEPATOMEGALIE </li>
+                                                <li class='list-group-item'> ENCEPHALOPATHIE HEPATIQUE </li>
+                                                <li class='list-group-item'> VASCULARITE </li>
+                                                <li class='list-group-item'> HYPERTENSION ARTERIELLE </li>
+                                                <li class='list-group-item'> PALPITATIONS </li>
+                                                <li class='list-group-item'> FLUSH </li>
+                                                <li class='list-group-item'> PURPURA </li>
+                                                <li class='list-group-item'> HYPOTENSION ARTERIELLE </li>
+                                                <li class='list-group-item'> HEMATOME </li>
+                                                <li class='list-group-item'> SAIGNEMENT / HEMORRAGIE </li>
+                                                <li class='list-group-item'> ULCERATION GASTRIQUE </li>
+                                                <li class='list-group-item'> ULCERATION DUODENALE </li>
+                                                <li class='list-group-item'> HEMORRAGIE DIGESTIVE </li>
+                                                <li class='list-group-item'> HEMATEMESE </li>
+                                                <li class='list-group-item'> MELENA </li>
+                                                <li class='list-group-item'> PERFORATION DIGESTIVE </li>
+                                                <li class='list-group-item'> RECTORRAGIE </li>
+                                                <li class='list-group-item'> DOULEUR ABDOMINALE </li>
+                                                <li class='list-group-item'> NAUSEE VOMISSEMENT </li>
+                                                <li class='list-group-item'> DYSPEPSIE </li>
+                                                <li class='list-group-item'> DIARRHEE </li>
+                                                <li class='list-group-item'> STOMATITE </li>
+                                                <li class='list-group-item'> CONSTIPATION </li>
+                                                <li class='list-group-item'> ANOREXIE </li>
+                                                <li class='list-group-item'> FLATULENCE / METEORISME </li>
+                                                <li class='list-group-item'> GASTRALGIE </li>
+                                                <li class='list-group-item'> ULCERATION INTESTINALE </li>
+                                                <li class='list-group-item'> COLITE </li>
+                                                <li class='list-group-item'> HYPERSECRETION ACIDE GASTRIQUE </li>
+                                                <li class='list-group-item'> GASTRITE </li>
+                                                <li class='list-group-item'> SAIGNEMENT GASTROINTESTINAL </li>
+                                                <li class='list-group-item'> SECHERESSE BUCCALE </li>
+                                                <li class='list-group-item'> ERUCTATION </li>
+                                                <li class='list-group-item'> DYSPHAGIE / DEGLUTITION DIFFICULTE </li>
+                                                <li class='list-group-item'> PARESTHESIE </li>
+                                                <li class='list-group-item'> PANCREATITE AIGUE </li>
+                                                <li class='list-group-item'> ERUPTION CUTANEE </li>
+                                                <li class='list-group-item'> EXANTHEME </li>
+                                                <li class='list-group-item'> PRURIT </li>
+                                                <li class='list-group-item'> URTICAIRE </li>
+                                                <li class='list-group-item'> ERYTHEME </li>
+                                                <li class='list-group-item'> BRONCHOSPASME / ASTHME </li>
+                                                <li class='list-group-item'> RHINITE </li>
+                                                <li class='list-group-item'> CHOC ANAPHYLACTIQUE </li>
+                                                <li class='list-group-item'> OEDEME DE QUINCKE / ANGIOEDEME </li>
+                                                <li class='list-group-item'> DYSPNEE </li>
+                                                <li class='list-group-item'> ANAPHYLAXIE </li>
+                                                <li class='list-group-item'> DERMATITE </li>
+                                                <li class='list-group-item'> ERYTHEME POLYMORPHE </li>
+                                                <li class='list-group-item'> TOXIDERMIE BULLEUSE / PEMPHIGUS </li>
+                                                <li class='list-group-item'> TOUX </li>
+                                                <li class='list-group-item'> STEVENS JOHNSON SYNDROME </li>
+                                                <li class='list-group-item'> LYELL SYNDROME </li>
+                                                <li class='list-group-item'> LICHEN </li>
+                                                <li class='list-group-item'> PURPURA </li>
+                                                <li class='list-group-item'> PHOTOSENSIBILISATION MEDICAMENTEUSE </li>
+                                                <li class='list-group-item'> REACTION ALLERGIQUE </li>
+                                                <li class='list-group-item'> FRISSON </li>
+                                                <li class='list-group-item'> FIEVRE </li>
+                                                <li class='list-group-item'> MYALGIE </li>
+                                                <li class='list-group-item'> ARTHRALGIE </li>
+                                                <li class='list-group-item'> CEPHALEE </li>
+                                                <li class='list-group-item'> HYPERPIGMENTATION </li>
+                                                <li class='list-group-item'> ERYTHRODERMIE / DERMATITE EXFOLIATIVE </li>
+                                                <li class='list-group-item'> MALADIE SERIQUE </li>
+                                                <li class='list-group-item'> PUSTULOSE </li>
+                                                <li class='list-group-item'> ALOPECIE </li>
+                                                <li class='list-group-item'> DRESS SYNDROME </li>
+                                                <li class='list-group-item'> OEDEME PULMONAIRE </li>
+                                                <li class='list-group-item'> EXTRASYSTOLE </li>
+                                                <li class='list-group-item'> CHOC CARDIOGENIQUE </li>
+                                                <li class='list-group-item'> COLLAPSUS CARDIOVASCULAIRE </li>
+                                                <li class='list-group-item'> MANIFESTATION CUTANEE </li>
+                                                <li class='list-group-item'> PHARYNGITE </li>
+                                                <li class='list-group-item'> PUSTULOSE EXANTHEMATIQUE AIGUE GENERALISEE (PEAG) </li>
+                                                <li class='list-group-item'> ERYTHEME NOUEUX </li>
+                                                <li class='list-group-item'> COLITE </li>
+                                                <li class='list-group-item'> FIEVRE </li>
+                                                <li class='list-group-item'> ASTHENIE </li>
+                                                <li class='list-group-item'> HYPERSUDATION </li>
+                                                <li class='list-group-item'> SECHERESSE MUQUEUSE </li>
+                                                <li class='list-group-item'> INSUFFISANCE RENALE AIGUE </li>
+                                                <li class='list-group-item'> OLIGURIE </li>
+                                                <li class='list-group-item'> SYNDROME NEPHROTIQUE </li>
+                                                <li class='list-group-item'> NEPHRITE INTERSTITIELLE </li>
+                                                <li class='list-group-item'> OEDEME CUTANE </li>
+                                                <li class='list-group-item'> OEDEME DES MEMBRES INFERIEURS </li>
+                                                <li class='list-group-item'> NECROSE PAPILLAIRE RENALE </li>
+                                                <li class='list-group-item'> NECROSE TUBULAIRE RENALE </li>
+                                                <li class='list-group-item'> ATTEINTE RENALE </li>
+                                                <li class='list-group-item'> HYPERTENSION ARTERIELLE </li>
+                                                <li class='list-group-item'> FLUSH </li>
+                                                <li class='list-group-item'> PALPITATIONS </li>
+                                                <li class='list-group-item'> DYSURIE </li>
+                                                <li class='list-group-item'> INSUFFISANCE RENALE CHRONIQUE </li>
+                                                <li class='list-group-item'> GOUTTE </li>
+                                                <li class='list-group-item'> DECOLORATION URINES </li>
+                                                <li class='list-group-item'> CHOC CARDIOGENIQUE </li>
+                                                <li class='list-group-item'> COLLAPSUS CARDIOVASCULAIRE </li>
+                                                <li class='list-group-item'> MENORRAGIE </li>
+                                                <li class='list-group-item'> CEPHALEE </li>
+                                                <li class='list-group-item'> VERTIGE / ETOURDISSEMENT </li>
+                                                <li class='list-group-item'> CONFUSION MENTALE </li>
+                                                <li class='list-group-item'> PSYCHOSE </li>
+                                                <li class='list-group-item'> DEPRESSION </li>
+                                                <li class='list-group-item'> INSOMNIE </li>
+                                                <li class='list-group-item'> CONCENTRATION BAISSE </li>
+                                                <li class='list-group-item'> CAUCHEMAR </li>
+                                                <li class='list-group-item'> SOMNOLENCE DIURNE </li>
+                                                <li class='list-group-item'> CONVULSION </li>
+                                                <li class='list-group-item'> NERVOSITE </li>
+                                                <li class='list-group-item'> PARESTHESIE </li>
+                                                <li class='list-group-item'> HALLUCINATION </li>
+                                                <li class='list-group-item'> MEMOIRE TROUBLE </li>
+                                                <li class='list-group-item'> NEUROPATHIE PERIPHERIQUE </li>
+                                                <li class='list-group-item'> DYSGUEUSIE </li>
+                                                <li class='list-group-item'> AMNESIE </li>
+                                                <li class='list-group-item'> COORDINATION TROUBLE </li>
+                                                <li class='list-group-item'> HYPERESTHESIE </li>
+                                                <li class='list-group-item'> MALAISE / LIPOTHYMIE </li>
+                                                <li class='list-group-item'> VISION FLOUE </li>
+                                                <li class='list-group-item'> NEVRITE OPTIQUE </li>
+                                                <li class='list-group-item'> OEDEME PAPILLAIRE </li>
+                                                <li class='list-group-item'> DIPLOPIE </li>
+                                                <li class='list-group-item'> VISION ALTERATION </li>
+                                                <li class='list-group-item'> DOULEUR OCULAIRE </li>
+                                                <li class='list-group-item'> HEMORRAGIE OCULAIRE </li>
+                                                <li class='list-group-item'> SAIGNEMENT / HEMORRAGIE </li>
+                                                <li class='list-group-item'> HEMORRAGIE RETINIENNE </li>
+                                                <li class='list-group-item'> DYSPNEE </li>
+                                                <li class='list-group-item'> RHINITE </li>
+                                                <li class='list-group-item'> BRONCHOSPASME / ASTHME </li>
+                                                <li class='list-group-item'> CHOC ANAPHYLACTIQUE </li>
+                                                <li class='list-group-item'> REACTION ALLERGIQUE </li>
+                                                <li class='list-group-item'> OEDEME DE QUINCKE / ANGIOEDEME </li>
+                                                <li class='list-group-item'> SAIGNEMENT / HEMORRAGIE </li>
+                                                <li class='list-group-item'> KOUNIS SYNDROME </li>
+                                          </ul>                     
+                </div>
+            </div>                
+            </div>
+
+        </div>
+
+
+        </div>
+        
+        <script src='http://localhost:8000/bddm/js/jquery.js'></script>   
+        <script src='http://localhost:8000/bddm/js/bootstrap.js'></script>
+        <script src='http://localhost:8000/bddm/js/jquery-ui.js'></script> 
+        <script type='application/javascript' charset='utf8' src='https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js'></script>
+        <script type='application/javascript' charset='utf8' src='https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js'></script>
+        <script type='application/javascript' src='http://localhost:8000/bddm/js/adminlte.js'></script>
+        <script src='http://localhost:8000/plugins/EasyAutocomplete-1.3.5/jquery.easy-autocomplete.min.js'></script>
+        <script type='application/javascript' src='http://localhost:8000/bddm/js/handle_monographie.js'></script>
+    </body>
+
+</html>

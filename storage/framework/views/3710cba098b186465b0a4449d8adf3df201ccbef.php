@@ -1,0 +1,1 @@
+<?php /**PATH C:\laragon\www\anapharm\resources\views\admin\prescription-type\examen\edit.blade.php ENDPATH**/ ?>

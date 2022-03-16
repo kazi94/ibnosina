@@ -1,0 +1,2231 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="L'application AnaPharmDz est un ensemble d'outils de gestion du dossier médicale patient et de prise de décision pour le personnel soignant">
+      
+      
+      
+        <link rel="canonical" href="http://medicaments.hic-sante.com/reference/liste-allergies/">
+      
+      
+        <meta name="author" content="Kazi Aouel Sid Ahmed <kazi.sidou.94@gmail.com>">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.7">
+    
+    
+      
+        <title>Liste des allergies - AnaPharmDz Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.19753c6b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.196e0c26.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#02a6f2">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7C&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="light-blue" data-md-color-accent="">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#liste-des-allergies-disponnibles" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="http://medicaments.hic-sante.com" title="AnaPharmDz Documentation" class="md-header-nav__button md-logo" aria-label="AnaPharmDz Documentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            AnaPharmDz Documentation
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Liste des allergies
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+    
+    <a href="../.." class="md-tabs__link">
+      Acceuil
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+    
+  
+  
+    <li class="md-tabs__item">
+      
+      
+      <a href="../../guide/admin/" class="md-tabs__link">
+        Guide Complet
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+      
+      <a href="../../changelog/releases/" class="md-tabs__link">
+        Changelog
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+    
+  
+  
+    <li class="md-tabs__item">
+      
+      
+        
+      
+      <a href="../liste-pathologies/" class="md-tabs__link md-tabs__link--active">
+        Réferences
+      </a>
+    </li>
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="http://medicaments.hic-sante.com" title="AnaPharmDz Documentation" class="md-nav__button md-logo" aria-label="AnaPharmDz Documentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    AnaPharmDz Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." class="md-nav__link">
+      Acceuil
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+    <label class="md-nav__link" for="nav-2">
+      Guide Complet
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Guide Complet" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Guide Complet
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1" >
+    <label class="md-nav__link" for="nav-2-1">
+      Administrateur
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Administrateur" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        <span class="md-nav__icon md-icon"></span>
+        Administrateur
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/admin/" class="md-nav__link">
+      Commencer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1-2" type="checkbox" id="nav-2-1-2" >
+    <label class="md-nav__link" for="nav-2-1-2">
+      Comptes
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Comptes" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-1-2">
+        <span class="md-nav__icon md-icon"></span>
+        Comptes
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/admin/user/" class="md-nav__link">
+      Utilisateurs internes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/admin/profil/" class="md-nav__link">
+      Profils
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1-3" type="checkbox" id="nav-2-1-3" >
+    <label class="md-nav__link" for="nav-2-1-3">
+      Paramètres
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Paramètres" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-1-3">
+        <span class="md-nav__icon md-icon"></span>
+        Paramètres
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/admin/bilan/" class="md-nav__link">
+      Bilans d'examens
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/admin/phyto/" class="md-nav__link">
+      Produits phytothérapeutes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/admin/regles/" class="md-nav__link">
+      Editeur de règles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/admin/settings/" class="md-nav__link">
+      Paramètres générales
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2" >
+    <label class="md-nav__link" for="nav-2-2">
+      Utilisateur
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Utilisateur" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        <span class="md-nav__icon md-icon"></span>
+        Utilisateur
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/service/" class="md-nav__link">
+      Mon service
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2-2" type="checkbox" id="nav-2-2-2" >
+    <label class="md-nav__link" for="nav-2-2-2">
+      Mes patients
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Mes patients" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-2">
+        <span class="md-nav__icon md-icon"></span>
+        Mes patients
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/patients/list/" class="md-nav__link">
+      Liste des patients
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/patients/ajouter/" class="md-nav__link">
+      Ajouter un patient
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2-2-3" type="checkbox" id="nav-2-2-2-3" >
+    <label class="md-nav__link" for="nav-2-2-2-3">
+      Dossier médicale patient
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Dossier médicale patient" data-md-level="4">
+      <label class="md-nav__title" for="nav-2-2-2-3">
+        <span class="md-nav__icon md-icon"></span>
+        Dossier médicale patient
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/patients/dossier-patient/" class="md-nav__link">
+      Commencer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/patients/dossier-patient/consultations/" class="md-nav__link">
+      Consultations
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/patients/dossier-patient/hospitalisations/" class="md-nav__link">
+      Hospitalisations
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/patients/dossier-patient/automedications/" class="md-nav__link">
+      Automédications
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/patients/dossier-patient/prescriptions-service/" class="md-nav__link">
+      Prescriptions service
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/patients/dossier-patient/prescriptions-act/" class="md-nav__link">
+      Prescriptions act
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/patients/dossier-patient/prescriptions-examen/" class="md-nav__link">
+      Prescriptions examen
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/patients/dossier-patient/traitements-chronique/" class="md-nav__link">
+      Prescriptions chronique
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/patients/dossier-patient/annotations/" class="md-nav__link">
+      Annotations
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/patients/dossier-patient/phytotherapies/" class="md-nav__link">
+      Phytothérapies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/patients/dossier-patient/educations-therapeutique/" class="md-nav__link">
+      Educations thérapeutique
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/administrations/" class="md-nav__link">
+      Mes administrations
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/demandes-examens/" class="md-nav__link">
+      Mes demandes d'examens
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2-5" type="checkbox" id="nav-2-2-5" >
+    <label class="md-nav__link" for="nav-2-2-5">
+      Mon armoire pharmaceutique
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Mon armoire pharmaceutique" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-5">
+        <span class="md-nav__icon md-icon"></span>
+        Mon armoire pharmaceutique
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/pharmacie/prescriptions-a-analyser/" class="md-nav__link">
+      Mes prescriptions à analyser
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/pharmacie/prescriptions-analyses/" class="md-nav__link">
+      Mes prescriptions analysées
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/pharmacie/educations-therapeutique/" class="md-nav__link">
+      Mes éducations thérapeutique
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/pharmacie/pharmacovigilance/" class="md-nav__link">
+      Pharmacovigilance
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/agenda/" class="md-nav__link">
+      Mon agenda
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2-7" type="checkbox" id="nav-2-2-7" >
+    <label class="md-nav__link" for="nav-2-2-7">
+      Outils
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Outils" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-7">
+        <span class="md-nav__icon md-icon"></span>
+        Outils
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/outils/calculateur-clairance/" class="md-nav__link">
+      Clairance calculateur
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3" >
+    <label class="md-nav__link" for="nav-2-3">
+      Rapports et impression
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Rapports et impression" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-3">
+        <span class="md-nav__icon md-icon"></span>
+        Rapports et impression
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/reports/prescription-service/" class="md-nav__link">
+      Prescription service
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/reports/prescription-examen/" class="md-nav__link">
+      Prescription examen
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/reports/consultation/" class="md-nav__link">
+      Rapports de la consultation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/reports/intervention-pharmaceutique/" class="md-nav__link">
+      Rapport intervention pharmaceutique
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/reports/dossier-medicale-patient/" class="md-nav__link">
+      Rapport médicale patient
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/reports/demande-hospitalisation/" class="md-nav__link">
+      Demande d'hospitalisation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guide/user/reports/qr-code/" class="md-nav__link">
+      QrCode
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+    <label class="md-nav__link" for="nav-3">
+      Changelog
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Changelog" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Changelog
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../changelog/releases/" class="md-nav__link">
+      Releases
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../changelog/upgraded/" class="md-nav__link">
+      Upgrading
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../changelog/deprecated/" class="md-nav__link">
+      Deprecated
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    <label class="md-nav__link" for="nav-4">
+      Réferences
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Réferences" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Réferences
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-1" type="checkbox" id="nav-4-1" checked>
+    <label class="md-nav__link" for="nav-4-1">
+      Réferences
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Réferences" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-1">
+        <span class="md-nav__icon md-icon"></span>
+        Réferences
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../liste-pathologies/" class="md-nav__link">
+      Liste des pathologies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Liste des allergies
+    </a>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../liste-antecedents_chirurgicaux/" class="md-nav__link">
+      Liste des antécédents chirurgicaux
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../liste-signes/" class="md-nav__link">
+      Liste des signes formelles
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="liste-des-allergies-disponnibles">Liste des allergies disponnibles</h1>
+<ul>
+<li>HYPERSENSIBILITE ADHESIF DISP TRANSDERM</li>
+<li>HYPERSENSIBILITE AMARANTHE</li>
+<li>HYPERSENSIBILITE TROMETAMOL</li>
+<li>HYPERSENSIBILITE BRONOPOL</li>
+<li>HYPERSENSIBILITE ACIDE SORBIQUE DERIVES</li>
+<li>HYPERSENSIBILITE BUTYLHYDROXYANISOLE</li>
+<li>HYPERSENSIBILITE BUTYLHYDROXYTOLUENE</li>
+<li>HYPERSENSIBILITE A L'UN DES EXCIPIENTS</li>
+<li>HYPERSENSIBILITE BESILIQUE ACIDE</li>
+<li>HYPERSENSIBILITE AZORUBICINE</li>
+<li>HYPERSENSIBILITE BETAPROPIOLACTONE</li>
+<li>HYPERSENSIBILITE CETYLTRIMETHYLAMMONIUM</li>
+<li>HYPERSENSIBILITE DESOXYCHOLATE SODIQUE</li>
+<li>HYPERSENSIBILITE HUILE D'ARACHIDE</li>
+<li>HYPERSENSIBILITE METACRESOL</li>
+<li>HYPERSENSIBILITE LANOLINE DERIVES</li>
+<li>HYPERSENSIBILITE HUILE DE SESAME</li>
+<li>HYPERSENSIBILITE NONOXYNOL 9</li>
+<li>HYPERSENSIBILITE PEPSINE PORCINE</li>
+<li>HYPERSENSIBILITE LACTOSE (INTOLERANCE)</li>
+<li>HYPERSENSIBILITE CACAHUETES</li>
+<li>HYPERSENSIBILITE LACOSAMIDE</li>
+<li>HYPERSENSIBILITE GLUCOSAMINE</li>
+<li>HYPERSENSIBILITE CRUSTACES</li>
+<li>HYPERSENSIBILITE HYDROXOCOBALAMINE</li>
+<li>HYPERSENSIBILITE ROUGE ALLURA</li>
+<li>HYPERSENSIBILITE SAPIN</li>
+<li>HYPERSENSIBILITE JAUNE ORANGE S</li>
+<li>HYPERSENSIBILITE ARACHIDE</li>
+<li>HYPERSENSIBILITE TECHNEGAS</li>
+<li>HYPERSENSIBILITE GLUCOSE (INTOLERANCE)</li>
+<li>HYPERSENSIBILITE LACTITOL (INTOLERANCE)</li>
+<li>HYPERSENSIBILITE FRUCTOSE (INTOLERANCE)</li>
+<li>HYPERSENSIBILITE MALTITOL (INTOLERANCE)</li>
+<li>HYPERSENSIBILITE SORBITOL (INTOLERANCE)</li>
+<li>HYPERSENSIBILITE GALACTOSE (INTOLERANCE)</li>
+<li>HYPERSENSIBILITE SACCHAROSE (INTOLERANCE)</li>
+<li>HYPERSENSIBILITE AMIDON DE BLE/GLUTEN</li>
+<li>HYPERSENSIBILITE ASPARTAM (INTOLERANCE)</li>
+<li>HYPERSENSIBILITE TEDUGLUTIDE</li>
+<li>HYPERSENSIBILITE TITANE</li>
+<li>HYPERSENSIBILITE POLYSULFONE</li>
+<li>HYPERSENSIBILITE SILICONE</li>
+<li>HYPERSENSIBILITE A LA POMPE</li>
+<li>HYPERSENSIBILITE zz EXCIPIENT zz</li>
+<li>HYPERSENSIBILITE NOIR BRILLANT BN</li>
+<li>HYPERSENSIBILITE HUILE RICIN/CREMOPHOR</li>
+<li>HYPERSENSIBILITE ROUGE COCHENILLE</li>
+<li>HYPERSENSIBILITE TARTRAZINE</li>
+<li>HYPERSENSIBILITE IMIGLUCERASE</li>
+<li>HYPERSENSIBILITE TENOXICAM</li>
+<li>HYPERSENSIBILITE IBANDRONIQUE ACIDE</li>
+<li>HYPERSENSIBILITE RITUXIMAB</li>
+<li>HYPERSENSIBILITE DEFERIPRONE</li>
+<li>HYPERSENSIBILITE TIBOLONE</li>
+<li>HYPERSENSIBILITE QUINUPRISTINE</li>
+<li>HYPERSENSIBILITE DALFOPRISTINE</li>
+<li>HYPERSENSIBILITE PEGINTERFERON</li>
+<li>HYPERSENSIBILITE LEFLUNOMIDE</li>
+<li>HYPERSENSIBILITE VERTEPORFINE</li>
+<li>HYPERSENSIBILITE AMIODARONE</li>
+<li>HYPERSENSIBILITE LEVOFLOXACINE</li>
+<li>HYPERSENSIBILITE AC LACTIQUE/LACTATE</li>
+<li>HYPERSENSIBILITE BRINZOLAMIDE</li>
+<li>HYPERSENSIBILITE CELECOXIB</li>
+<li>HYPERSENSIBILITE ROFECOXIB</li>
+<li>HYPERSENSIBILITE EPROSARTAN</li>
+<li>HYPERSENSIBILITE METIPRANOLOL</li>
+<li>HYPERSENSIBILITE BEFUNOLOL</li>
+<li>HYPERSENSIBILITE DIHYDROERGOTAMINE</li>
+<li>HYPERSENSIBILITE DIHYDROERGOCRYPTINE</li>
+<li>HYPERSENSIBILITE SULPIRIDE</li>
+<li>HYPERSENSIBILITE MEFENAMIQUE ACIDE</li>
+<li>HYPERSENSIBILITE PROPYLTHIOURACILE</li>
+<li>HYPERSENSIBILITE DIVALPROATE SODIQUE</li>
+<li>HYPERSENSIBILITE MAGNESIUM HYDROXYDE</li>
+<li>HYPERSENSIBILITE ALUMINIUM OXYDE</li>
+<li>HYPERSENSIBILITE LEVONORGESTREL</li>
+<li>HYPERSENSIBILITE PHENAZONE</li>
+<li>HYPERSENSIBILITE FENOFIBRATE</li>
+<li>HYPERSENSIBILITE FLUPENTIXOL</li>
+<li>HYPERSENSIBILITE BISMUTH</li>
+<li>HYPERSENSIBILITE MYCOPHENOLIQUE ACIDE</li>
+<li>HYPERSENSIBILITE LEVOMENOL (BISABOLOL A)</li>
+<li>HYPERSENSIBILITE EXEMESTANE</li>
+<li>HYPERSENSIBILITE CALAMINE</li>
+<li>HYPERSENSIBILITE HYDROCORTISONE</li>
+<li>HYPERSENSIBILITE BENZOCAINE</li>
+<li>HYPERSENSIBILITE ESCULOSIDE</li>
+<li>HYPERSENSIBILITE ANTITHROMBINE HUMAINE</li>
+<li>HYPERSENSIBILITE TRIMEBUTINE</li>
+<li>HYPERSENSIBILITE FACTEUR WILLEBRAND</li>
+<li>HYPERSENSIBILITE HYMECROMONE</li>
+<li>HYPERSENSIBILITE NIFLUMIQUE ACIDE</li>
+<li>HYPERSENSIBILITE CLONAZEPAM</li>
+<li>HYPERSENSIBILITE WARFARINE</li>
+<li>HYPERSENSIBILITE FLUINDIONE</li>
+<li>HYPERSENSIBILITE ACENOCOUMAROL</li>
+<li>HYPERSENSIBILITE TIOCLOMAROL</li>
+<li>HYPERSENSIBILITE ALUMINIUM ACETOTARTRATE</li>
+<li>HYPERSENSIBILITE HESPERIDE</li>
+<li>HYPERSENSIBILITE OXCARBAZEPINE</li>
+<li>HYPERSENSIBILITE TRANEXAMIQUE ACIDE</li>
+<li>HYPERSENSIBILITE TRICLOSAN</li>
+<li>HYPERSENSIBILITE PARA AMINOBENZOIQUE AC</li>
+<li>HYPERSENSIBILITE PHENOXYETHANOL</li>
+<li>HYPERSENSIBILITE ASPIRINE</li>
+<li>HYPERSENSIBILITE RESORCINOL</li>
+<li>HYPERSENSIBILITE AC BORIQUE/BORATE</li>
+<li>HYPERSENSIBILITE PROPANOCAINE</li>
+<li>HYPERSENSIBILITE PANCURONIUM</li>
+<li>HYPERSENSIBILITE SEVELAMER</li>
+<li>HYPERSENSIBILITE BUTOFORME</li>
+<li>HYPERSENSIBILITE NONACOG ALFA</li>
+<li>HYPERSENSIBILITE POTASSIUM PERMANGANATE</li>
+<li>HYPERSENSIBILITE ACIDE TIAPROFENIQUE</li>
+<li>HYPERSENSIBILITE PHENYLBUTYRATE DE SODIUM</li>
+<li>HYPERSENSIBILITE LERCANIDIPINE</li>
+<li>HYPERSENSIBILITE PROGUANIL</li>
+<li>HYPERSENSIBILITE MOLSIDOMINE</li>
+<li>HYPERSENSIBILITE SULTOPRIDE</li>
+<li>HYPERSENSIBILITE DEPALLETHRINE</li>
+<li>HYPERSENSIBILITE METHOPRENE</li>
+<li>HYPERSENSIBILITE PYRETHRE</li>
+<li>HYPERSENSIBILITE PIMOZIDE</li>
+<li>HYPERSENSIBILITE FACTEUR II</li>
+<li>HYPERSENSIBILITE ACIDE TIENILIQUE</li>
+<li>HYPERSENSIBILITE FACTEUR X</li>
+<li>HYPERSENSIBILITE BUMETANIDE</li>
+<li>HYPERSENSIBILITE AGALSIDASE BETA</li>
+<li>HYPERSENSIBILITE CAPECITABINE</li>
+<li>HYPERSENSIBILITE DIETHYLCARBAMAZINE</li>
+<li>HYPERSENSIBILITE SULINDAC</li>
+<li>HYPERSENSIBILITE RISEDRONATE MONOSODIQUE</li>
+<li>HYPERSENSIBILITE YOHIMBINE</li>
+<li>HYPERSENSIBILITE MOROCTOCOG ALFA</li>
+<li>HYPERSENSIBILITE BECAPLERMINE</li>
+<li>HYPERSENSIBILITE ACIDE TRICHLORACETIQUE</li>
+<li>HYPERSENSIBILITE DAPSONE</li>
+<li>HYPERSENSIBILITE COTRIMOXAZOLE</li>
+<li>HYPERSENSIBILITE TENOFOVIR DISOPROXIL</li>
+<li>HYPERSENSIBILITE COLISTINE</li>
+<li>HYPERSENSIBILITE OCTOCOG ALFA</li>
+<li>HYPERSENSIBILITE LISURIDE</li>
+<li>HYPERSENSIBILITE TIOPRONINE</li>
+<li>HYPERSENSIBILITE PYRITINOL</li>
+<li>HYPERSENSIBILITE FIBRINOGENE</li>
+<li>HYPERSENSIBILITE FACTEUR XIII</li>
+<li>HYPERSENSIBILITE FIBRONECTINE</li>
+<li>HYPERSENSIBILITE PLASMINOGENE</li>
+<li>HYPERSENSIBILITE APROTININE BOVINE</li>
+<li>HYPERSENSIBILITE THROMBINE</li>
+<li>HYPERSENSIBILITE CARBOMERE</li>
+<li>HYPERSENSIBILITE POLYMYXINE B</li>
+<li>HYPERSENSIBILITE CABERGOLINE</li>
+<li>HYPERSENSIBILITE CHLORTALIDONE</li>
+<li>HYPERSENSIBILITE PAMIDRONIQUE ACIDE</li>
+<li>HYPERSENSIBILITE ACITRETINE</li>
+<li>HYPERSENSIBILITE AGALSIDASE ALFA</li>
+<li>HYPERSENSIBILITE DESIRUDINE</li>
+<li>HYPERSENSIBILITE SELENITE</li>
+<li>HYPERSENSIBILITE METHYCLOTHIAZIDE</li>
+<li>HYPERSENSIBILITE TRIAMTERENE</li>
+<li>HYPERSENSIBILITE ETONOGESTREL</li>
+<li>HYPERSENSIBILITE PLANTAIN LANCEOLE</li>
+<li>HYPERSENSIBILITE COLESTYRAMINE</li>
+<li>HYPERSENSIBILITE TEGAFUR</li>
+<li>HYPERSENSIBILITE TACRINE</li>
+<li>HYPERSENSIBILITE URACILE</li>
+<li>HYPERSENSIBILITE ESMOLOL</li>
+<li>HYPERSENSIBILITE RETEPLASE</li>
+<li>HYPERSENSIBILITE TENECTEPLASE</li>
+<li>HYPERSENSIBILITE POLYOSIDE PNEUMOCOQUE</li>
+<li>HYPERSENSIBILITE DOPAMINE</li>
+<li>HYPERSENSIBILITE PASSIFLORE</li>
+<li>HYPERSENSIBILITE CLOFOCTOL</li>
+<li>HYPERSENSIBILITE CHLORPROETHAZINE</li>
+<li>HYPERSENSIBILITE CALCIUM CARBONATE</li>
+<li>HYPERSENSIBILITE ACRIFLAVINE</li>
+<li>HYPERSENSIBILITE ALTEPLASE</li>
+<li>HYPERSENSIBILITE GALANTAMINE BROMHYDRATE</li>
+<li>HYPERSENSIBILITE TEREBENTHINE</li>
+<li>HYPERSENSIBILITE DIPROPHYLLINE</li>
+<li>HYPERSENSIBILITE FLUMAZENIL</li>
+<li>HYPERSENSIBILITE METHYLTHIONINIUM/BLEU METHYL</li>
+<li>HYPERSENSIBILITE SULFACETAMIDE</li>
+<li>HYPERSENSIBILITE OXEDRINE</li>
+<li>HYPERSENSIBILITE FOMIVIRSEN</li>
+<li>HYPERSENSIBILITE GUAIAZULENE</li>
+<li>HYPERSENSIBILITE SELEGILINE</li>
+<li>HYPERSENSIBILITE SIBUTRAMINE</li>
+<li>HYPERSENSIBILITE RUTOSIDE</li>
+<li>HYPERSENSIBILITE TROXERUTINE</li>
+<li>HYPERSENSIBILITE INDORAMINE</li>
+<li>HYPERSENSIBILITE VINORELBINE</li>
+<li>HYPERSENSIBILITE ESERIDINE</li>
+<li>HYPERSENSIBILITE CYTIDINE</li>
+<li>HYPERSENSIBILITE URIDINE</li>
+<li>HYPERSENSIBILITE AMANTADINE</li>
+<li>HYPERSENSIBILITE THYMIDINE</li>
+<li>HYPERSENSIBILITE GUANOSINE</li>
+<li>HYPERSENSIBILITE TRINITRINE</li>
+<li>HYPERSENSIBILITE NOREPINEPHRINE</li>
+<li>HYPERSENSIBILITE EPINEPHRINE</li>
+<li>HYPERSENSIBILITE ANTIGENE B PERTUSSIS</li>
+<li>HYPERSENSIBILITE POLYOSIDE H INFLUENZAE</li>
+<li>HYPERSENSIBILITE AG HBS RECOMBINANT</li>
+<li>HYPERSENSIBILITE VIRUS HEPATITE A</li>
+<li>HYPERSENSIBILITE ARTICAINE</li>
+<li>HYPERSENSIBILITE ADAPALENE</li>
+<li>HYPERSENSIBILITE VIRUS GRIPPAL</li>
+<li>HYPERSENSIBILITE PRILOCAINE</li>
+<li>HYPERSENSIBILITE CORBADRINE</li>
+<li>HYPERSENSIBILITE PHENOBARBITAL</li>
+<li>HYPERSENSIBILITE PRIMIDONE</li>
+<li>HYPERSENSIBILITE PENTAZOCINE</li>
+<li>HYPERSENSIBILITE ISOPRENALINE</li>
+<li>HYPERSENSIBILITE ADENOSINE</li>
+<li>HYPERSENSIBILITE NITRAZEPAM</li>
+<li>HYPERSENSIBILITE NILUTAMIDE</li>
+<li>HYPERSENSIBILITE FOLLITROPINE</li>
+<li>HYPERSENSIBILITE OCTOXINOL 9</li>
+<li>HYPERSENSIBILITE SULFORUTOSIDE SODIQUE</li>
+<li>HYPERSENSIBILITE EPTACOG ALFA ACTIVE</li>
+<li>HYPERSENSIBILITE SIROLIMUS</li>
+<li>HYPERSENSIBILITE METFORMINE</li>
+<li>HYPERSENSIBILITE VIRUS RUBEOLE</li>
+<li>HYPERSENSIBILITE ANTIGENE S TYPHI</li>
+<li>HYPERSENSIBILITE LEPTOSPIRA</li>
+<li>HYPERSENSIBILITE BUPROPION</li>
+<li>HYPERSENSIBILITE LEVETIRACETAM</li>
+<li>HYPERSENSIBILITE NITRENDIPINE</li>
+<li>HYPERSENSIBILITE TITANE DIOXYDE</li>
+<li>HYPERSENSIBILITE CARRAGHENATE</li>
+<li>HYPERSENSIBILITE IMATINIB</li>
+<li>HYPERSENSIBILITE ETAMSYLATE</li>
+<li>HYPERSENSIBILITE AC CARBAMYL GLUTAMIQUE</li>
+<li>HYPERSENSIBILITE ALPROSTADIL</li>
+<li>HYPERSENSIBILITE PEROXYDE HYDROGENE</li>
+<li>HYPERSENSIBILITE CETRORELIX</li>
+<li>HYPERSENSIBILITE GANIRELIX</li>
+<li>HYPERSENSIBILITE CALCIUM GLUCONOLACTATE</li>
+<li>HYPERSENSIBILITE DARBEPOETINE</li>
+<li>HYPERSENSIBILITE ALCOOL ETHYLIQUE</li>
+<li>HYPERSENSIBILITE ISOSORBIDE DINITRATE</li>
+<li>HYPERSENSIBILITE AMOXICILLINE</li>
+<li>HYPERSENSIBILITE CEFALEXINE</li>
+<li>HYPERSENSIBILITE TOXINE BOTULIQUE</li>
+<li>HYPERSENSIBILITE EUCALYPTOL/EUCALYPTUS</li>
+<li>HYPERSENSIBILITE CALCIUM GLUBIONATE</li>
+<li>HYPERSENSIBILITE CELIPROLOL</li>
+<li>HYPERSENSIBILITE AMIKACINE</li>
+<li>HYPERSENSIBILITE EFAVIRENZ</li>
+<li>HYPERSENSIBILITE AMIFOSTINE</li>
+<li>HYPERSENSIBILITE CETRIMONIUM</li>
+<li>HYPERSENSIBILITE BUPIVACAINE</li>
+<li>HYPERSENSIBILITE ETIDOCAINE</li>
+<li>HYPERSENSIBILITE ISOFLURANE</li>
+<li>HYPERSENSIBILITE ENFLURANE</li>
+<li>HYPERSENSIBILITE HALOTHANE</li>
+<li>HYPERSENSIBILITE PROMETHAZINE</li>
+<li>HYPERSENSIBILITE MIDAZOLAM</li>
+<li>HYPERSENSIBILITE RIFAMPICINE</li>
+<li>HYPERSENSIBILITE ALBENDAZOLE</li>
+<li>HYPERSENSIBILITE CLARITHROMYCINE</li>
+<li>HYPERSENSIBILITE ISOSORBIDE MONONITRATE</li>
+<li>HYPERSENSIBILITE THALIDOMIDE</li>
+<li>HYPERSENSIBILITE CARBIMAZOLE</li>
+<li>HYPERSENSIBILITE LEVOTHYROXINE</li>
+<li>HYPERSENSIBILITE LIOTHYRONINE</li>
+<li>HYPERSENSIBILITE PENTAERYTHRITYLE TETRAN</li>
+<li>HYPERSENSIBILITE BETAMETHASONE</li>
+<li>HYPERSENSIBILITE ETIDRONATE</li>
+<li>HYPERSENSIBILITE CEFADROXIL</li>
+<li>HYPERSENSIBILITE ALBUMINE HUMAINE</li>
+<li>HYPERSENSIBILITE TILUDRONATE</li>
+<li>HYPERSENSIBILITE PREDNISONE</li>
+<li>HYPERSENSIBILITE CLAVULANIQUE ACIDE</li>
+<li>HYPERSENSIBILITE ALIZAPRIDE</li>
+<li>HYPERSENSIBILITE METOCLOPRAMIDE</li>
+<li>HYPERSENSIBILITE DIMENHYDRINATE</li>
+<li>HYPERSENSIBILITE IMIPRAMINE</li>
+<li>HYPERSENSIBILITE VILOXAZINE</li>
+<li>HYPERSENSIBILITE MISOPROSTOL</li>
+<li>HYPERSENSIBILITE TRIAZOLAM</li>
+<li>HYPERSENSIBILITE DIMEGLUMINE GADOBENATE</li>
+<li>HYPERSENSIBILITE ALPRAZOLAM</li>
+<li>HYPERSENSIBILITE LORAZEPAM</li>
+<li>HYPERSENSIBILITE TETRAZEPAM</li>
+<li>HYPERSENSIBILITE PRAZEPAM</li>
+<li>HYPERSENSIBILITE DIAZEPAM</li>
+<li>HYPERSENSIBILITE CLOBAZAM</li>
+<li>HYPERSENSIBILITE FLUNITRAZEPAM</li>
+<li>HYPERSENSIBILITE CLORAZEPATE</li>
+<li>HYPERSENSIBILITE LORMETAZEPAM</li>
+<li>HYPERSENSIBILITE TEMAZEPAM</li>
+<li>HYPERSENSIBILITE LOPRAZOLAM</li>
+<li>HYPERSENSIBILITE CEFOXITINE</li>
+<li>HYPERSENSIBILITE PIPERACILLINE</li>
+<li>HYPERSENSIBILITE BENZYLPENICILLINE</li>
+<li>HYPERSENSIBILITE PHENOXYMETHYLPENICILL</li>
+<li>HYPERSENSIBILITE OXACILLINE</li>
+<li>HYPERSENSIBILITE PIVMECILLINAM</li>
+<li>HYPERSENSIBILITE CARBENICILLINE</li>
+<li>HYPERSENSIBILITE CEFALOTINE</li>
+<li>HYPERSENSIBILITE CEFIXIME</li>
+<li>HYPERSENSIBILITE ALCOOL BENZYLIQUE</li>
+<li>HYPERSENSIBILITE SULBACTAM</li>
+<li>HYPERSENSIBILITE AMPICILLINE</li>
+<li>HYPERSENSIBILITE CEFUROXIME</li>
+<li>HYPERSENSIBILITE TICARCILLINE</li>
+<li>HYPERSENSIBILITE CLOXACILLINE</li>
+<li>HYPERSENSIBILITE CEFTAZIDIME</li>
+<li>HYPERSENSIBILITE CEFAMANDOLE</li>
+<li>HYPERSENSIBILITE CEFTRIAXONE</li>
+<li>HYPERSENSIBILITE CEFOTAXIME</li>
+<li>HYPERSENSIBILITE CEFACLOR</li>
+<li>HYPERSENSIBILITE ALENDRONATE/ALENDRONIQUE ACI</li>
+<li>HYPERSENSIBILITE CEFRADINE</li>
+<li>HYPERSENSIBILITE CEFOTIAM</li>
+<li>HYPERSENSIBILITE CEFPIROME</li>
+<li>HYPERSENSIBILITE PREDNISOLONE</li>
+<li>HYPERSENSIBILITE DOXYCYCLINE</li>
+<li>HYPERSENSIBILITE METACYCLINE</li>
+<li>HYPERSENSIBILITE LYMECYCLINE</li>
+<li>HYPERSENSIBILITE CHYMOPAPAINE</li>
+<li>HYPERSENSIBILITE BROMELAINE</li>
+<li>HYPERSENSIBILITE METHYLERGOMETRINE</li>
+<li>HYPERSENSIBILITE ALFENTANIL</li>
+<li>HYPERSENSIBILITE GADODIAMIDE</li>
+<li>HYPERSENSIBILITE GADOPENTETATE</li>
+<li>HYPERSENSIBILITE GADOTERIQUE ACIDE</li>
+<li>HYPERSENSIBILITE GADOTERIDOL</li>
+<li>HYPERSENSIBILITE OXICONAZOLE</li>
+<li>HYPERSENSIBILITE BIFONAZOLE</li>
+<li>HYPERSENSIBILITE SECNIDAZOLE</li>
+<li>HYPERSENSIBILITE TAZOBACTAM</li>
+<li>HYPERSENSIBILITE IOVERSOL</li>
+<li>HYPERSENSIBILITE IOPENTOL</li>
+<li>HYPERSENSIBILITE ALFUZOSINE</li>
+<li>HYPERSENSIBILITE IODIXANOL</li>
+<li>HYPERSENSIBILITE ROXITHROMYCINE</li>
+<li>HYPERSENSIBILITE NIFUROXAZIDE</li>
+<li>HYPERSENSIBILITE NITROFURANTOINE</li>
+<li>HYPERSENSIBILITE SULFADIAZINE</li>
+<li>HYPERSENSIBILITE INDAPAMIDE</li>
+<li>HYPERSENSIBILITE ETHOSUXIMIDE</li>
+<li>HYPERSENSIBILITE RIFABUTINE</li>
+<li>HYPERSENSIBILITE RIFAMYCINE</li>
+<li>HYPERSENSIBILITE DOXAZOSINE</li>
+<li>HYPERSENSIBILITE ALGLUCERASE</li>
+<li>HYPERSENSIBILITE FOMEPIZOLE</li>
+<li>HYPERSENSIBILITE TETRACYCLINE</li>
+<li>HYPERSENSIBILITE BROMAZEPAM</li>
+<li>HYPERSENSIBILITE CLOTIAZEPAM</li>
+<li>HYPERSENSIBILITE NORDAZEPAM</li>
+<li>HYPERSENSIBILITE OXAZEPAM</li>
+<li>HYPERSENSIBILITE TIRATRICOL</li>
+<li>HYPERSENSIBILITE MERBROMINE</li>
+<li>HYPERSENSIBILITE NIFURZIDE</li>
+<li>HYPERSENSIBILITE NOSCAPINE</li>
+<li>HYPERSENSIBILITE CORTICORELINE</li>
+<li>HYPERSENSIBILITE ALIMEMAZINE</li>
+<li>HYPERSENSIBILITE CYPROHEPTADINE</li>
+<li>HYPERSENSIBILITE NETILMICINE</li>
+<li>HYPERSENSIBILITE VERAPAMIL</li>
+<li>HYPERSENSIBILITE OLIGOSIDE N MENINGITID</li>
+<li>HYPERSENSIBILITE GEMFIBROZIL</li>
+<li>HYPERSENSIBILITE CHARBON ACTIVE</li>
+<li>HYPERSENSIBILITE ESOMEPRAZOLE</li>
+<li>HYPERSENSIBILITE VALGANCICLOVIR</li>
+<li>HYPERSENSIBILITE ISPAGHULE</li>
+<li>HYPERSENSIBILITE INSULINE ASPARTE</li>
+<li>HYPERSENSIBILITE ALLANTOINE</li>
+<li>HYPERSENSIBILITE RHUBARBE</li>
+<li>HYPERSENSIBILITE LUMEFANTRINE</li>
+<li>HYPERSENSIBILITE ARTEMETHER</li>
+<li>HYPERSENSIBILITE MAGNESIUM LACTATE</li>
+<li>HYPERSENSIBILITE GLYCINE</li>
+<li>HYPERSENSIBILITE CAPSICINE/CAPSICUM</li>
+<li>HYPERSENSIBILITE ARNICA</li>
+<li>HYPERSENSIBILITE BELLADONE</li>
+<li>HYPERSENSIBILITE THEODRENALINE</li>
+<li>HYPERSENSIBILITE CAFEDRINE</li>
+<li>HYPERSENSIBILITE ALLOPURINOL</li>
+<li>HYPERSENSIBILITE BENFLUOREX</li>
+<li>HYPERSENSIBILITE ACIDE ZOLEDRONIQUE</li>
+<li>HYPERSENSIBILITE DIPYRIDAMOLE</li>
+<li>HYPERSENSIBILITE AC FOLIQUE/FOLATE</li>
+<li>HYPERSENSIBILITE TOREMIFENE</li>
+<li>HYPERSENSIBILITE TACALCITOL</li>
+<li>HYPERSENSIBILITE METOPIMAZINE</li>
+<li>HYPERSENSIBILITE CLOPAMIDE</li>
+<li>HYPERSENSIBILITE PINDOLOL</li>
+<li>HYPERSENSIBILITE ALMITRINE</li>
+<li>HYPERSENSIBILITE TIEMONIUM</li>
+<li>HYPERSENSIBILITE METAMIZOLE</li>
+<li>HYPERSENSIBILITE METHOHEXITAL</li>
+<li>HYPERSENSIBILITE SULFADOXINE</li>
+<li>HYPERSENSIBILITE OLSALAZINE</li>
+<li>HYPERSENSIBILITE DESFLURANE</li>
+<li>HYPERSENSIBILITE ACEPROMAZINE</li>
+<li>HYPERSENSIBILITE ACEPROMETAZINE</li>
+<li>HYPERSENSIBILITE CETYLPYRIDINIUM</li>
+<li>HYPERSENSIBILITE SULFAMETHIZOL</li>
+<li>HYPERSENSIBILITE AMYLASE ALFA</li>
+<li>HYPERSENSIBILITE PIRETANIDE</li>
+<li>HYPERSENSIBILITE CHLORAMPHENICOL</li>
+<li>HYPERSENSIBILITE SULFAGUANIDINE</li>
+<li>HYPERSENSIBILITE HELICIDINE</li>
+<li>HYPERSENSIBILITE CINCHOCAINE</li>
+<li>HYPERSENSIBILITE ARCITUMOMAB</li>
+<li>HYPERSENSIBILITE FLUOCORTOLONE</li>
+<li>HYPERSENSIBILITE DIFLUCORTOLONE</li>
+<li>HYPERSENSIBILITE LEPIRUDINE</li>
+<li>HYPERSENSIBILITE PORFIMERE</li>
+<li>HYPERSENSIBILITE BCG</li>
+<li>HYPERSENSIBILITE PIMEXITENE</li>
+<li>HYPERSENSIBILITE BENSERAZIDE</li>
+<li>HYPERSENSIBILITE ALTIZIDE</li>
+<li>HYPERSENSIBILITE INTERFERON ALPHACON</li>
+<li>HYPERSENSIBILITE LINEZOLIDE</li>
+<li>HYPERSENSIBILITE VALPROMIDE</li>
+<li>HYPERSENSIBILITE SULFONYLUREE</li>
+<li>HYPERSENSIBILITE BECLOMETASONE</li>
+<li>HYPERSENSIBILITE CARBASALATE CALCIQUE</li>
+<li>HYPERSENSIBILITE HYDROGENOPHOSPHATE</li>
+<li>HYPERSENSIBILITE TRAVOPROST</li>
+<li>HYPERSENSIBILITE CEFATRIZINE</li>
+<li>HYPERSENSIBILITE ALEMTUZUMAB</li>
+<li>HYPERSENSIBILITE ESTAZOLAM</li>
+<li>HYPERSENSIBILITE TESTOSTERONE</li>
+<li>HYPERSENSIBILITE TENONITROZOLE</li>
+<li>HYPERSENSIBILITE SOJA/LECITHINE DE SOJA</li>
+<li>HYPERSENSIBILITE HUILE D'OLIVE</li>
+<li>HYPERSENSIBILITE BENAZEPRIL</li>
+<li>HYPERSENSIBILITE PETIT HOUX</li>
+<li>HYPERSENSIBILITE CASSIS</li>
+<li>HYPERSENSIBILITE ELETRIPTAN</li>
+<li>HYPERSENSIBILITE HEPTAMINOL</li>
+<li>HYPERSENSIBILITE ETIFOXINE</li>
+<li>HYPERSENSIBILITE TOFISOPAM</li>
+<li>HYPERSENSIBILITE ADEFOVIR DIPIVOXIL</li>
+<li>HYPERSENSIBILITE THIAMPHENICOL</li>
+<li>HYPERSENSIBILITE ORNIDAZOLE</li>
+<li>HYPERSENSIBILITE NIMORAZOLE</li>
+<li>HYPERSENSIBILITE BENZALKONIUM</li>
+<li>HYPERSENSIBILITE TINIDAZOLE</li>
+<li>HYPERSENSIBILITE SULCONAZOLE</li>
+<li>HYPERSENSIBILITE TIOCONAZOLE</li>
+<li>HYPERSENSIBILITE CLOTRIMAZOLE</li>
+<li>HYPERSENSIBILITE BUTOCONAZOLE</li>
+<li>HYPERSENSIBILITE DIBEKACINE</li>
+<li>HYPERSENSIBILITE SISOMICINE</li>
+<li>HYPERSENSIBILITE PIVAMPICILLINE</li>
+<li>HYPERSENSIBILITE BACAMPICILLINE</li>
+<li>HYPERSENSIBILITE METAMPICILLINE</li>
+<li>HYPERSENSIBILITE BENZBROMARONE</li>
+<li>HYPERSENSIBILITE HETACILLINE</li>
+<li>HYPERSENSIBILITE MEZLOCILLINE</li>
+<li>HYPERSENSIBILITE PEROXYDE BENZOYLE</li>
+<li>HYPERSENSIBILITE DINOPROST</li>
+<li>HYPERSENSIBILITE GEMEPROST</li>
+<li>HYPERSENSIBILITE PIPEMIDIQUE ACIDE</li>
+<li>HYPERSENSIBILITE FLUMEQUINE</li>
+<li>HYPERSENSIBILITE ACIDE PIROMIDIQUE</li>
+<li>HYPERSENSIBILITE OXOLINIQUE ACIDE</li>
+<li>HYPERSENSIBILITE ALTRETAMINE</li>
+<li>HYPERSENSIBILITE ROSOXACINE</li>
+<li>HYPERSENSIBILITE BUTOBARBITAL</li>
+<li>HYPERSENSIBILITE SECOBARBITAL</li>
+<li>HYPERSENSIBILITE AMOBARBITAL</li>
+<li>HYPERSENSIBILITE LUTROPINE</li>
+<li>HYPERSENSIBILITE FENSPIRIDE</li>
+<li>HYPERSENSIBILITE ETHYLE LOFLAZEPATE</li>
+<li>HYPERSENSIBILITE AURANOFINE</li>
+<li>HYPERSENSIBILITE AUROTHIOPROPANOL</li>
+<li>HYPERSENSIBILITE NATAMYCINE</li>
+<li>HYPERSENSIBILITE BENZODODECINIUM</li>
+<li>HYPERSENSIBILITE RESERPINE</li>
+<li>HYPERSENSIBILITE BENDROFLUMETHIAZIDE</li>
+<li>HYPERSENSIBILITE HEMATOPORPHYRINE</li>
+<li>HYPERSENSIBILITE OXYBUPROCAINE</li>
+<li>HYPERSENSIBILITE SALICYLIQUE/SALICYLATE</li>
+<li>HYPERSENSIBILITE CETALKONIUM</li>
+<li>HYPERSENSIBILITE MEPROBAMATE</li>
+<li>HYPERSENSIBILITE ODULIMOMAB</li>
+<li>HYPERSENSIBILITE ARGENT PROTEINATE</li>
+<li>HYPERSENSIBILITE RUSCOGENINE</li>
+<li>HYPERSENSIBILITE CENTELLA ASIATICA</li>
+<li>HYPERSENSIBILITE OXYDE MERCURIQUE</li>
+<li>HYPERSENSIBILITE POVIDONE IODEE</li>
+<li>HYPERSENSIBILITE DESLORATADINE</li>
+<li>HYPERSENSIBILITE BROMOAURATE</li>
+<li>HYPERSENSIBILITE THIOMERSAL</li>
+<li>HYPERSENSIBILITE IODOHEPARINATE</li>
+<li>HYPERSENSIBILITE BUCLIZINE</li>
+<li>HYPERSENSIBILITE FLUMETASONE</li>
+<li>HYPERSENSIBILITE XIPAMIDE</li>
+<li>HYPERSENSIBILITE HYDROFLUMETHIAZIDE</li>
+<li>HYPERSENSIBILITE BEPRIDIL</li>
+<li>HYPERSENSIBILITE POLYTHIAZIDE</li>
+<li>HYPERSENSIBILITE PHENYLMERCURE</li>
+<li>HYPERSENSIBILITE DEQUALINIUM</li>
+<li>HYPERSENSIBILITE PARETHOXYCAINE</li>
+<li>HYPERSENSIBILITE FLURAZEPAM</li>
+<li>HYPERSENSIBILITE AZELAIQUE ACIDE</li>
+<li>HYPERSENSIBILITE CALCIUM PHOSPHATE</li>
+<li>HYPERSENSIBILITE EXTRAIT PANCREAS</li>
+<li>HYPERSENSIBILITE SODIUM FLUORURE</li>
+<li>HYPERSENSIBILITE CALCIUM FLUORURE</li>
+<li>HYPERSENSIBILITE BETA-CAROTENE</li>
+<li>HYPERSENSIBILITE GONADOTROPHINE</li>
+<li>HYPERSENSIBILITE HYDROXYETHYLAMIDON</li>
+<li>HYPERSENSIBILITE IMMUNOGLOBULINE HUMAINE</li>
+<li>HYPERSENSIBILITE MACROGOL</li>
+<li>HYPERSENSIBILITE RUTINE</li>
+<li>HYPERSENSIBILITE IODE MINERAL</li>
+<li>HYPERSENSIBILITE SUCCINIMIDE</li>
+<li>HYPERSENSIBILITE OPIUM</li>
+<li>HYPERSENSIBILITE AMMONIUM IODURE</li>
+<li>HYPERSENSIBILITE BETAHISTINE</li>
+<li>HYPERSENSIBILITE ACETYLSALICYLATE METHYL</li>
+<li>HYPERSENSIBILITE DIHEXYVERINE</li>
+<li>HYPERSENSIBILITE DIFEMERINE</li>
+<li>HYPERSENSIBILITE PRIFINIUM</li>
+<li>HYPERSENSIBILITE PARAPENZOLATE</li>
+<li>HYPERSENSIBILITE PROPYROZAMINE</li>
+<li>HYPERSENSIBILITE NIMOPIDINE</li>
+<li>HYPERSENSIBILITE AGAR AGAR</li>
+<li>HYPERSENSIBILITE ETHANOLAMINE</li>
+<li>HYPERSENSIBILITE OXACEPROL</li>
+<li>HYPERSENSIBILITE CROTAMITON</li>
+<li>HYPERSENSIBILITE TERPINE</li>
+<li>HYPERSENSIBILITE OXETACAINE</li>
+<li>HYPERSENSIBILITE MAGNESIUM OXYDE</li>
+<li>HYPERSENSIBILITE PROGESTERONE</li>
+<li>HYPERSENSIBILITE POTASSIUM IODURE</li>
+<li>HYPERSENSIBILITE TILIQUINOL</li>
+<li>HYPERSENSIBILITE TILBROQUINOL</li>
+<li>HYPERSENSIBILITE ESCINE</li>
+<li>HYPERSENSIBILITE ANDROSTANOLONE</li>
+<li>HYPERSENSIBILITE BETAXOLOL</li>
+<li>HYPERSENSIBILITE TELITHROMYCINE</li>
+<li>HYPERSENSIBILITE BAMETHAN</li>
+<li>HYPERSENSIBILITE ESTROGENE</li>
+<li>HYPERSENSIBILITE VITAMINE B2</li>
+<li>HYPERSENSIBILITE GLUCURONAMIDE</li>
+<li>HYPERSENSIBILITE KAOLIN</li>
+<li>HYPERSENSIBILITE NORETHISTERONE</li>
+<li>HYPERSENSIBILITE NANDROLONE</li>
+<li>HYPERSENSIBILITE PYRVINIUM</li>
+<li>HYPERSENSIBILITE CITICOLINE</li>
+<li>HYPERSENSIBILITE CEFAZOLINE</li>
+<li>HYPERSENSIBILITE FUROMINE</li>
+<li>HYPERSENSIBILITE TRIFOSMIN</li>
+<li>HYPERSENSIBILITE ETHACRIDINE</li>
+<li>HYPERSENSIBILITE ACTINOQUINOL</li>
+<li>HYPERSENSIBILITE DESOGESTREL</li>
+<li>HYPERSENSIBILITE ATOSIBAN</li>
+<li>HYPERSENSIBILITE OCTENIDINE</li>
+<li>HYPERSENSIBILITE MOLYBDENE</li>
+<li>HYPERSENSIBILITE ALUMINIUM</li>
+<li>HYPERSENSIBILITE URANIUM</li>
+<li>HYPERSENSIBILITE BICALUTAMIDE</li>
+<li>HYPERSENSIBILITE NIKETHAMIDE</li>
+<li>HYPERSENSIBILITE BUPHENINE</li>
+<li>HYPERSENSIBILITE SILICE</li>
+<li>HYPERSENSIBILITE ERGOTAMINE</li>
+<li>HYPERSENSIBILITE CYCLIZINE</li>
+<li>HYPERSENSIBILITE METICILLINE</li>
+<li>HYPERSENSIBILITE HYDROXYAMPHETAMINE</li>
+<li>HYPERSENSIBILITE FLUDROCORTISONE</li>
+<li>HYPERSENSIBILITE CORTISONE</li>
+<li>HYPERSENSIBILITE PARAMETHASONE</li>
+<li>HYPERSENSIBILITE DACTINOMYCINE</li>
+<li>HYPERSENSIBILITE BICLOTYMOL</li>
+<li>HYPERSENSIBILITE ETODOLAC</li>
+<li>HYPERSENSIBILITE BUMADIZONE</li>
+<li>HYPERSENSIBILITE FENTIAZAC</li>
+<li>HYPERSENSIBILITE ALCLOMETHASONE</li>
+<li>HYPERSENSIBILITE CLOBETASOL</li>
+<li>HYPERSENSIBILITE DIFLUPREDNATE</li>
+<li>HYPERSENSIBILITE FLUOCINOLONE</li>
+<li>HYPERSENSIBILITE FLUOCINONIDE</li>
+<li>HYPERSENSIBILITE PROTEINE EQUINE</li>
+<li>HYPERSENSIBILITE PROTEINE MURINE</li>
+<li>HYPERSENSIBILITE BIPERIDENE</li>
+<li>HYPERSENSIBILITE PROTEINE DE HAMSTER</li>
+<li>HYPERSENSIBILITE PROTEINE BOVINE</li>
+<li>HYPERSENSIBILITE ACIDE AMINE</li>
+<li>HYPERSENSIBILITE PROTEINE DE LAPIN</li>
+<li>HYPERSENSIBILITE PROTEINE DE L'OEUF</li>
+<li>HYPERSENSIBILITE PROTEINE DE POISSON</li>
+<li>HYPERSENSIBILITE PROTEINE DE PORC</li>
+<li>HYPERSENSIBILITE PROTEINE DE POULET</li>
+<li>HYPERSENSIBILITE PROTEINE OVINE</li>
+<li>HYPERSENSIBILITE PROTEINE DE LAIT</li>
+<li>HYPERSENSIBILITE BISACODYL</li>
+<li>HYPERSENSIBILITE AMINOSALICYLIQUE ACIDE</li>
+<li>HYPERSENSIBILITE LITHIUM GLUCONATE</li>
+<li>HYPERSENSIBILITE LITHIUM BROMURE</li>
+<li>HYPERSENSIBILITE ARGENT NITRATE</li>
+<li>HYPERSENSIBILITE OR MINERAL</li>
+<li>HYPERSENSIBILITE SUBST BACTERIENNE</li>
+<li>HYPERSENSIBILITE MOXIFLOXACINE</li>
+<li>HYPERSENSIBILITE BIMATOPROST</li>
+<li>HYPERSENSIBILITE BISANTRENE</li>
+<li>HYPERSENSIBILITE PIOGLITAZONE</li>
+<li>HYPERSENSIBILITE ROSIGLITAZONE</li>
+<li>HYPERSENSIBILITE CASPOFUNGINE</li>
+<li>HYPERSENSIBILITE BEXAROTENE</li>
+<li>HYPERSENSIBILITE PROTIRELINE</li>
+<li>HYPERSENSIBILITE CYCLOTHIAZIDE</li>
+<li>HYPERSENSIBILITE GLATIRAMERE ACETATE</li>
+<li>HYPERSENSIBILITE ZOFENOPRIL</li>
+<li>HYPERSENSIBILITE MAGNESIUM CARBONATE</li>
+<li>HYPERSENSIBILITE BLEU PATENTE</li>
+<li>HYPERSENSIBILITE RASBURICASE</li>
+<li>HYPERSENSIBILITE VORICONAZOLE</li>
+<li>HYPERSENSIBILITE ANAGRELIDE</li>
+<li>HYPERSENSIBILITE THYREOSTIMULINE</li>
+<li>HYPERSENSIBILITE DROTRECOGINE ALFA</li>
+<li>HYPERSENSIBILITE MEDAZEPAM</li>
+<li>HYPERSENSIBILITE OSELTAMIVIR</li>
+<li>HYPERSENSIBILITE MITOMYCINE C</li>
+<li>HYPERSENSIBILITE RIMANTADINE</li>
+<li>HYPERSENSIBILITE PAROMOMYCINE</li>
+<li>HYPERSENSIBILITE CLIDINIUM</li>
+<li>HYPERSENSIBILITE METHAQUALONE</li>
+<li>HYPERSENSIBILITE ISOTRETINOINE</li>
+<li>HYPERSENSIBILITE DIETHYLAMINE</li>
+<li>HYPERSENSIBILITE CANRENOATE</li>
+<li>HYPERSENSIBILITE RESCINNAMINE</li>
+<li>HYPERSENSIBILITE CHLOROFORME</li>
+<li>HYPERSENSIBILITE DROPROPIZINE</li>
+<li>HYPERSENSIBILITE GUAIFENESINE</li>
+<li>HYPERSENSIBILITE BROMHEXINE</li>
+<li>HYPERSENSIBILITE CHELIDOINE</li>
+<li>HYPERSENSIBILITE CYPRES</li>
+<li>HYPERSENSIBILITE MARRON D'INDE</li>
+<li>HYPERSENSIBILITE HAMAMELIS</li>
+<li>HYPERSENSIBILITE LEVURE EXTRAIT</li>
+<li>HYPERSENSIBILITE TANNIQUE ACIDE</li>
+<li>HYPERSENSIBILITE EUGENOL</li>
+<li>HYPERSENSIBILITE CHLORAL HYDRATE</li>
+<li>HYPERSENSIBILITE REGLISSE</li>
+<li>HYPERSENSIBILITE VIOLET DE METHYLE</li>
+<li>HYPERSENSIBILITE BROMOCRIPTINE</li>
+<li>HYPERSENSIBILITE AZULENE</li>
+<li>HYPERSENSIBILITE NAFARELINE</li>
+<li>HYPERSENSIBILITE PHENIRAMINE</li>
+<li>HYPERSENSIBILITE CADMIUM</li>
+<li>HYPERSENSIBILITE CEFEPIME</li>
+<li>HYPERSENSIBILITE MONOFLUOROPHOSPHATE</li>
+<li>HYPERSENSIBILITE DROSPIRENONE</li>
+<li>HYPERSENSIBILITE ETHINYLESTRADIOL</li>
+<li>HYPERSENSIBILITE CHLOROCRESOL</li>
+<li>HYPERSENSIBILITE NICOTINATE BENZYLE</li>
+<li>HYPERSENSIBILITE BROMPHENIRAMINE</li>
+<li>HYPERSENSIBILITE VERATROL</li>
+<li>HYPERSENSIBILITE SALOL</li>
+<li>HYPERSENSIBILITE BLEU TRIPTAN</li>
+<li>HYPERSENSIBILITE CYPROTERONE</li>
+<li>HYPERSENSIBILITE CLOCINIZINE</li>
+<li>HYPERSENSIBILITE DYDROGESTERONE</li>
+<li>HYPERSENSIBILITE NORTRIPTYLINE</li>
+<li>HYPERSENSIBILITE SERPOLET</li>
+<li>HYPERSENSIBILITE SULFAFURAZOLE</li>
+<li>HYPERSENSIBILITE TETRAMETHRINE</li>
+<li>HYPERSENSIBILITE DESOXIMETASONE</li>
+<li>HYPERSENSIBILITE HYDRASTININE</li>
+<li>HYPERSENSIBILITE TRIMETHYLPHLOROGLUCINOL</li>
+<li>HYPERSENSIBILITE DIACERHEINE</li>
+<li>HYPERSENSIBILITE VIBURNUM</li>
+<li>HYPERSENSIBILITE SODIUM BICARBONATE</li>
+<li>HYPERSENSIBILITE GUANETHIDINE</li>
+<li>HYPERSENSIBILITE STREPTODORNASE</li>
+<li>HYPERSENSIBILITE VIRUS HEPATITE B</li>
+<li>HYPERSENSIBILITE DINOPROSTONE</li>
+<li>HYPERSENSIBILITE FLOXURIDINE</li>
+<li>HYPERSENSIBILITE BROPARESTROL</li>
+<li>HYPERSENSIBILITE UROFOLLITROPINE</li>
+<li>HYPERSENSIBILITE ZINC CHLORURE</li>
+<li>HYPERSENSIBILITE FONDAPARINUX</li>
+<li>HYPERSENSIBILITE TRICLABENDAZOLE</li>
+<li>HYPERSENSIBILITE DANAZOL</li>
+<li>HYPERSENSIBILITE PEGINTERFERON ALFA 2A</li>
+<li>HYPERSENSIBILITE ANAKINRA</li>
+<li>HYPERSENSIBILITE PROTEINE E COLI</li>
+<li>HYPERSENSIBILITE MEMANTINE</li>
+<li>HYPERSENSIBILITE MILLEPERTUIS</li>
+<li>HYPERSENSIBILITE BUCLOSAMIDE</li>
+<li>HYPERSENSIBILITE EMULSION LIPIDIQUE</li>
+<li>HYPERSENSIBILITE ESCITALOPRAM</li>
+<li>HYPERSENSIBILITE EPOETINE ALFA</li>
+<li>HYPERSENSIBILITE STIRIPENTOL</li>
+<li>HYPERSENSIBILITE GESTODENE</li>
+<li>HYPERSENSIBILITE NOMEGESTROL</li>
+<li>HYPERSENSIBILITE DIENOGEST</li>
+<li>HYPERSENSIBILITE CARBOCISTEINE</li>
+<li>HYPERSENSIBILITE ACIDE PROPIONIQUE</li>
+<li>HYPERSENSIBILITE SORBITOL</li>
+<li>HYPERSENSIBILITE BUDESONIDE</li>
+<li>HYPERSENSIBILITE BILE EXTRAIT</li>
+<li>HYPERSENSIBILITE FOIE EXTRAIT</li>
+<li>HYPERSENSIBILITE PANCREAS PORC POUDRE</li>
+<li>HYPERSENSIBILITE SODIUM METHYLARSINATE</li>
+<li>HYPERSENSIBILITE CALCIUM CHLORURE</li>
+<li>HYPERSENSIBILITE CALCIUM GLUCOHEPTONATE</li>
+<li>HYPERSENSIBILITE CALCIUM LACTATE</li>
+<li>HYPERSENSIBILITE SACCHAROMYCES</li>
+<li>HYPERSENSIBILITE CALCIUM PIDOLATE</li>
+<li>HYPERSENSIBILITE MONOFLUOROPHOSPHATE NA</li>
+<li>HYPERSENSIBILITE BUFEXAMAC</li>
+<li>HYPERSENSIBILITE SODIUM CHLORURE</li>
+<li>HYPERSENSIBILITE DOMIPHENE BROMURE</li>
+<li>HYPERSENSIBILITE CALCIUM BROMURE</li>
+<li>HYPERSENSIBILITE SODIUM BROMURE</li>
+<li>HYPERSENSIBILITE AMMONIUM BIFLUORURE</li>
+<li>HYPERSENSIBILITE SULFAMETROLE</li>
+<li>HYPERSENSIBILITE SULFAMOXOLE</li>
+<li>HYPERSENSIBILITE HALCINONIDE</li>
+<li>HYPERSENSIBILITE AMCINONIDE</li>
+<li>HYPERSENSIBILITE ISOPROPANOL/PROPANOL</li>
+<li>HYPERSENSIBILITE BUPRENORPHINE</li>
+<li>HYPERSENSIBILITE AMINOPROPYLAMINOBUTYRIQ</li>
+<li>HYPERSENSIBILITE MIRISTALKONIUM</li>
+<li>HYPERSENSIBILITE LOPOBUTAN</li>
+<li>HYPERSENSIBILITE BENJOIN</li>
+<li>HYPERSENSIBILITE AXONGE COALTAREE</li>
+<li>HYPERSENSIBILITE TARTRIQUE ACIDE</li>
+<li>HYPERSENSIBILITE OXOMEMAZINE</li>
+<li>HYPERSENSIBILITE SODIUM LAURYLSULFATE</li>
+<li>HYPERSENSIBILITE DIOXETHEDRINE</li>
+<li>HYPERSENSIBILITE ACONIT</li>
+<li>HYPERSENSIBILITE BUSERELINE</li>
+<li>HYPERSENSIBILITE BROMOFORME</li>
+<li>HYPERSENSIBILITE DROSERA</li>
+<li>HYPERSENSIBILITE BAUME TOLU</li>
+<li>HYPERSENSIBILITE DATURA</li>
+<li>HYPERSENSIBILITE GRINDELIA</li>
+<li>HYPERSENSIBILITE AMINOPHYLLINE</li>
+<li>HYPERSENSIBILITE CAMPHOSULFONATE</li>
+<li>HYPERSENSIBILITE DESESSARTZ SIROP</li>
+<li>HYPERSENSIBILITE FUMETERRE</li>
+<li>HYPERSENSIBILITE TODD POTION</li>
+<li>HYPERSENSIBILITE BUSPIRONE</li>
+<li>HYPERSENSIBILITE MYRTECAINE</li>
+<li>HYPERSENSIBILITE SIROP TOLU</li>
+<li>HYPERSENSIBILITE DIETHYLSALICYLAMIDE</li>
+<li>HYPERSENSIBILITE GELSENIUM</li>
+<li>HYPERSENSIBILITE LAURIER CERISE</li>
+<li>HYPERSENSIBILITE SACCHARINE</li>
+<li>HYPERSENSIBILITE ERYSINUM</li>
+<li>HYPERSENSIBILITE SODIUM FORMIATE</li>
+<li>HYPERSENSIBILITE GUAIACOL</li>
+<li>HYPERSENSIBILITE IPECA</li>
+<li>HYPERSENSIBILITE BUSULFAN</li>
+<li>HYPERSENSIBILITE SCILLE</li>
+<li>HYPERSENSIBILITE PYRITHIONE</li>
+<li>HYPERSENSIBILITE AUNEE</li>
+<li>HYPERSENSIBILITE MARRUBE</li>
+<li>HYPERSENSIBILITE BOURDAINE</li>
+<li>HYPERSENSIBILITE POLYGALA</li>
+<li>HYPERSENSIBILITE FLUCLOROLONE</li>
+<li>HYPERSENSIBILITE JUSQUIAME</li>
+<li>HYPERSENSIBILITE PECTORAL SIROP</li>
+<li>HYPERSENSIBILITE LOBELIE</li>
+<li>HYPERSENSIBILITE BUTACAINE</li>
+<li>HYPERSENSIBILITE PAVOT</li>
+<li>HYPERSENSIBILITE CALCIUM LACTOPHOSPHATE</li>
+<li>HYPERSENSIBILITE CREOSOTE</li>
+<li>HYPERSENSIBILITE AMMONIUM ACETATE</li>
+<li>HYPERSENSIBILITE SALICYLAMIDE</li>
+<li>HYPERSENSIBILITE MYRTE</li>
+<li>HYPERSENSIBILITE SODIUM SULFURE</li>
+<li>HYPERSENSIBILITE PANTOTHENATE</li>
+<li>HYPERSENSIBILITE SODIUM THIOSULFATE</li>
+<li>HYPERSENSIBILITE CAFEINE</li>
+<li>HYPERSENSIBILITE HUILE THIOPHENIQUE</li>
+<li>HYPERSENSIBILITE MELALEUCA VIRIDIFLORA</li>
+<li>HYPERSENSIBILITE PIN</li>
+<li>HYPERSENSIBILITE CALCIUM LEVULINATE</li>
+<li>HYPERSENSIBILITE SODIUM LEVULINATE</li>
+<li>HYPERSENSIBILITE ANIS</li>
+<li>HYPERSENSIBILITE CITRON</li>
+<li>HYPERSENSIBILITE COMPLEXE PROTHROMBIQUE</li>
+<li>HYPERSENSIBILITE MEROPENEME</li>
+<li>HYPERSENSIBILITE CARBAPENEME</li>
+<li>HYPERSENSIBILITE DACARBAZINE</li>
+<li>HYPERSENSIBILITE CALCIPOTRIOL</li>
+<li>HYPERSENSIBILITE ALDIOXA</li>
+<li>HYPERSENSIBILITE ALCLOXA</li>
+<li>HYPERSENSIBILITE ALIBENDOL</li>
+<li>HYPERSENSIBILITE MAGNESIUM THIOSULFATE</li>
+<li>HYPERSENSIBILITE ARGENT GLUCONATE</li>
+<li>HYPERSENSIBILITE COLLARGOL</li>
+<li>HYPERSENSIBILITE TADALAFIL</li>
+<li>HYPERSENSIBILITE BOSENTAN</li>
+<li>HYPERSENSIBILITE CHORIOGONADOTROPINE ALF</li>
+<li>HYPERSENSIBILITE ALFA 1 ANTITRYPSINE</li>
+<li>HYPERSENSIBILITE CALCITONINE SEQ HUMAINE</li>
+<li>HYPERSENSIBILITE TROPATEPINE</li>
+<li>HYPERSENSIBILITE ALITRETINOINE</li>
+<li>HYPERSENSIBILITE HYDROMORPHONE</li>
+<li>HYPERSENSIBILITE ARSENIC</li>
+<li>HYPERSENSIBILITE VIRUS ENCEPHALITE TIQUE</li>
+<li>HYPERSENSIBILITE AG VIRUS HEPATITE A</li>
+<li>HYPERSENSIBILITE ALMOTRIPTAN</li>
+<li>HYPERSENSIBILITE VARDENAFIL</li>
+<li>HYPERSENSIBILITE IG EQUINE TETANIQUE</li>
+<li>HYPERSENSIBILITE MENTHE</li>
+<li>HYPERSENSIBILITE CALCITONINE DE PORC</li>
+<li>HYPERSENSIBILITE GIROFLE</li>
+<li>HYPERSENSIBILITE THYM</li>
+<li>HYPERSENSIBILITE CANNELLE</li>
+<li>HYPERSENSIBILITE LAVANDE</li>
+<li>HYPERSENSIBILITE LATEX</li>
+<li>HYPERSENSIBILITE GLUCOSE</li>
+<li>HYPERSENSIBILITE TEICOPLANINE</li>
+<li>HYPERSENSIBILITE TUAMINOHEPTANE</li>
+<li>HYPERSENSIBILITE NIAOULI</li>
+<li>HYPERSENSIBILITE LEVOCETIRIZINE</li>
+<li>HYPERSENSIBILITE CALCITONINE DE SAUMON</li>
+<li>HYPERSENSIBILITE INSULINE GLARGINE</li>
+<li>HYPERSENSIBILITE PANCRELIPASE</li>
+<li>HYPERSENSIBILITE PANCREATINE</li>
+<li>HYPERSENSIBILITE NORGESTIMATE</li>
+<li>HYPERSENSIBILITE ENFUVIRTIDE</li>
+<li>HYPERSENSIBILITE SOMATORELINE</li>
+<li>HYPERSENSIBILITE COQUELICOT</li>
+<li>HYPERSENSIBILITE MYRTILLE</li>
+<li>HYPERSENSIBILITE TASONERMINE</li>
+<li>HYPERSENSIBILITE CAMPHRE</li>
+<li>HYPERSENSIBILITE GLUCOSE 1 PHOSPHATE</li>
+<li>HYPERSENSIBILITE TUBERCULINE</li>
+<li>HYPERSENSIBILITE AMSACRINE</li>
+<li>HYPERSENSIBILITE POTASSIUM CHLORURE</li>
+<li>HYPERSENSIBILITE TIOGUANINE</li>
+<li>HYPERSENSIBILITE SODIUM LACTATE</li>
+<li>HYPERSENSIBILITE TRIGLYCERIDES OMEGA-3</li>
+<li>HYPERSENSIBILITE VITAMINE D3</li>
+<li>HYPERSENSIBILITE VITAMINE B8/BIOTINE</li>
+<li>HYPERSENSIBILITE CAMPHORIQUE ACIDE</li>
+<li>HYPERSENSIBILITE CANDESARTAN</li>
+<li>HYPERSENSIBILITE AMIDON POLYMERE</li>
+<li>HYPERSENSIBILITE ICODEXTRINE</li>
+<li>HYPERSENSIBILITE MAGNESIUM CHLORURE</li>
+<li>HYPERSENSIBILITE HEXAFLUORURE DE SOUFRE</li>
+<li>HYPERSENSIBILITE PARECOXIB</li>
+<li>HYPERSENSIBILITE SERENOA REPENS</li>
+<li>HYPERSENSIBILITE PEGFILGRASTIM</li>
+<li>HYPERSENSIBILITE BOLDINE</li>
+<li>HYPERSENSIBILITE SODIUM SULFATE</li>
+<li>HYPERSENSIBILITE PHOSPHATE DISODIQUE</li>
+<li>HYPERSENSIBILITE CAPTOPRIL</li>
+<li>HYPERSENSIBILITE CALCITRIOL</li>
+<li>HYPERSENSIBILITE MAGNESIUM PHOSPHATE</li>
+<li>HYPERSENSIBILITE CALCIUM PANTHOTENATE</li>
+<li>HYPERSENSIBILITE ETHER</li>
+<li>HYPERSENSIBILITE DUTASTERIDE</li>
+<li>HYPERSENSIBILITE DIFLUNISAL</li>
+<li>HYPERSENSIBILITE SODIUM ACETATE</li>
+<li>HYPERSENSIBILITE POTASSIUM</li>
+<li>HYPERSENSIBILITE PHOSPHATE</li>
+<li>HYPERSENSIBILITE DEANOL PIDOLATE</li>
+<li>HYPERSENSIBILITE CARBAMAZEPINE</li>
+<li>HYPERSENSIBILITE MAGNESIUM BENZOATE</li>
+<li>HYPERSENSIBILITE ASCORBATE SODIQUE</li>
+<li>HYPERSENSIBILITE LYSINE</li>
+<li>HYPERSENSIBILITE PHOSPHORIQUE ACIDE</li>
+<li>HYPERSENSIBILITE HISTIDINE</li>
+<li>HYPERSENSIBILITE LIERRE GRIMPANT</li>
+<li>HYPERSENSIBILITE REINE DES PRES</li>
+<li>HYPERSENSIBILITE ORTHOSIPHON</li>
+<li>HYPERSENSIBILITE FUCUS</li>
+<li>HYPERSENSIBILITE CARBIDOPA</li>
+<li>HYPERSENSIBILITE SODIUM HYPOCHLORITE</li>
+<li>HYPERSENSIBILITE CHROMOCARBE DIETHYLAMIN</li>
+<li>HYPERSENSIBILITE TALC</li>
+<li>HYPERSENSIBILITE APHLOIA</li>
+<li>HYPERSENSIBILITE CAMOMILLE</li>
+<li>HYPERSENSIBILITE BLEUET</li>
+<li>HYPERSENSIBILITE ASTERACEE</li>
+<li>HYPERSENSIBILITE PISSENLIT</li>
+<li>HYPERSENSIBILITE MILLEFEUILLE</li>
+<li>HYPERSENSIBILITE MAGNESIUM GLUCONATE</li>
+<li>HYPERSENSIBILITE CALCIUM GLYCEROPHOSPHAT</li>
+<li>HYPERSENSIBILITE DEANOL BISORCATE</li>
+<li>HYPERSENSIBILITE CITRAL</li>
+<li>HYPERSENSIBILITE MATRICAIRE</li>
+<li>HYPERSENSIBILITE HYDROCOTYLE</li>
+<li>HYPERSENSIBILITE CYNARA</li>
+<li>HYPERSENSIBILITE PYROLE OMBELLEE</li>
+<li>HYPERSENSIBILITE CHARBON VEGETAL</li>
+<li>HYPERSENSIBILITE CHOLINE CITRATE</li>
+<li>HYPERSENSIBILITE CITROFLAVONOIDES</li>
+<li>HYPERSENSIBILITE TEMOZOLOMIDE</li>
+<li>HYPERSENSIBILITE CARBINOXAMINE</li>
+<li>HYPERSENSIBILITE XYLENE</li>
+<li>HYPERSENSIBILITE ARTICHAUT</li>
+<li>HYPERSENSIBILITE ACTEE A GRAPPES</li>
+<li>HYPERSENSIBILITE SODIUM CITRATE</li>
+<li>HYPERSENSIBILITE MAGNESIUM GLYCEROPHOSPH</li>
+<li>HYPERSENSIBILITE SODIUM SUCCINATE</li>
+<li>HYPERSENSIBILITE MAGNESIUM</li>
+<li>HYPERSENSIBILITE DANTROLENE</li>
+<li>HYPERSENSIBILITE TAMARIN</li>
+<li>HYPERSENSIBILITE BENZQUERCINE</li>
+<li>HYPERSENSIBILITE CARBOPLATINE</li>
+<li>HYPERSENSIBILITE L ALANYL L GLUTAMINE</li>
+<li>HYPERSENSIBILITE BALLOTE</li>
+<li>HYPERSENSIBILITE FENUGREC</li>
+<li>HYPERSENSIBILITE METESCULETOL</li>
+<li>HYPERSENSIBILITE MALT/ORGE</li>
+<li>HYPERSENSIBILITE GALEGA</li>
+<li>HYPERSENSIBILITE GINKGO BILOBA</li>
+<li>HYPERSENSIBILITE GLUTAMIQUE ACIDE</li>
+<li>HYPERSENSIBILITE QUINQUINA</li>
+<li>HYPERSENSIBILITE SAULE</li>
+<li>HYPERSENSIBILITE CARBUTAMIDE</li>
+<li>HYPERSENSIBILITE THE VERT</li>
+<li>HYPERSENSIBILITE SANGSUE</li>
+<li>HYPERSENSIBILITE ANEMONE</li>
+<li>HYPERSENSIBILITE BOURSE A PASTEUR</li>
+<li>HYPERSENSIBILITE MAIS</li>
+<li>HYPERSENSIBILITE CELLULOSE HYDROXYPROPYL</li>
+<li>HYPERSENSIBILITE CELLULOSE</li>
+<li>HYPERSENSIBILITE GERANIUM</li>
+<li>HYPERSENSIBILITE DEMECLOCYCLINE</li>
+<li>HYPERSENSIBILITE ADENINE</li>
+<li>HYPERSENSIBILITE CARMUSTINE</li>
+<li>HYPERSENSIBILITE ALUMINIUM PHOSPHATE</li>
+<li>HYPERSENSIBILITE GOMME GUAR</li>
+<li>HYPERSENSIBILITE TERPINEOL</li>
+<li>HYPERSENSIBILITE POTASSIUM GLUCONATE</li>
+<li>HYPERSENSIBILITE OS</li>
+<li>HYPERSENSIBILITE PALUIRE</li>
+<li>HYPERSENSIBILITE THIOPENTAL</li>
+<li>HYPERSENSIBILITE ACHE</li>
+<li>HYPERSENSIBILITE BUCHU</li>
+<li>HYPERSENSIBILITE GINGEMBRE</li>
+<li>HYPERSENSIBILITE CARTEOLOL</li>
+<li>HYPERSENSIBILITE PRELE</li>
+<li>HYPERSENSIBILITE PILOSELLE</li>
+<li>HYPERSENSIBILITE PHYLLANTUS</li>
+<li>HYPERSENSIBILITE POTASSIUM GLYCEROPHOSPH</li>
+<li>HYPERSENSIBILITE PAULLINIA</li>
+<li>HYPERSENSIBILITE ORANGE</li>
+<li>HYPERSENSIBILITE QUASSIA</li>
+<li>HYPERSENSIBILITE GENTIANE</li>
+<li>HYPERSENSIBILITE ESCHSCHOLTZIA</li>
+<li>HYPERSENSIBILITE DIBENZOYL DISULFURE</li>
+<li>HYPERSENSIBILITE LEMOXINOL</li>
+<li>HYPERSENSIBILITE TETRADECYLSULFATE</li>
+<li>HYPERSENSIBILITE TENOATE SODIQUE</li>
+<li>HYPERSENSIBILITE ALOES</li>
+<li>HYPERSENSIBILITE CEFOTETAN</li>
+<li>HYPERSENSIBILITE HYPROMELLOSE</li>
+<li>HYPERSENSIBILITE CEFAPIRINE</li>
+<li>HYPERSENSIBILITE CEFTIZOXIME SODIQUE</li>
+<li>HYPERSENSIBILITE METHYLTRISILANOL</li>
+<li>HYPERSENSIBILITE PHYDROXYCINNAMIQUE ACID</li>
+<li>HYPERSENSIBILITE PHYDROXYBENZOATE BENZYL</li>
+<li>HYPERSENSIBILITE CHLORMETHINE</li>
+<li>HYPERSENSIBILITE CEFPODOXIME PROXETIL</li>
+<li>HYPERSENSIBILITE PHYTATE / PHYTIQUE ACIDE</li>
+<li>HYPERSENSIBILITE CEFSULODINE SODIQUE</li>
+<li>HYPERSENSIBILITE MALIQUE ACIDE</li>
+<li>HYPERSENSIBILITE MOUTARDE</li>
+<li>HYPERSENSIBILITE THIOPHENECARBOXYLATE NA</li>
+<li>HYPERSENSIBILITE VIRUS RABIQUE</li>
+<li>HYPERSENSIBILITE POTASSIUM BICARBONATE</li>
+<li>HYPERSENSIBILITE INOSITOL</li>
+<li>HYPERSENSIBILITE MAGNESIUM ACETATE</li>
+<li>HYPERSENSIBILITE CERIVASTATINE</li>
+<li>HYPERSENSIBILITE CALCIUM ACETATE</li>
+<li>HYPERSENSIBILITE POTASSIUM ACETATE</li>
+<li>HYPERSENSIBILITE VIRUS OREILLONS</li>
+<li>HYPERSENSIBILITE VIRUS ROUGEOLE</li>
+<li>HYPERSENSIBILITE ADALIMUMAB</li>
+<li>HYPERSENSIBILITE EPOETINE BETA</li>
+<li>HYPERSENSIBILITE ERTAPENEME</li>
+<li>HYPERSENSIBILITE MAGNESIUM CITRATE</li>
+<li>HYPERSENSIBILITE SATUMOMAB PENDETIDE</li>
+<li>HYPERSENSIBILITE INDIUM 111</li>
+<li>HYPERSENSIBILITE CETHEXONIUM</li>
+<li>HYPERSENSIBILITE BUFLOMEDIL</li>
+<li>HYPERSENSIBILITE TAMINIER</li>
+<li>HYPERSENSIBILITE PENTAMIDINE</li>
+<li>HYPERSENSIBILITE GALLIUM</li>
+<li>HYPERSENSIBILITE MEDRONATE</li>
+<li>HYPERSENSIBILITE FLUORURE STANNEUX</li>
+<li>HYPERSENSIBILITE DEPREOTIDE</li>
+<li>HYPERSENSIBILITE TRIHEXYPHENIDYLE</li>
+<li>HYPERSENSIBILITE ROMARIN</li>
+<li>HYPERSENSIBILITE POLYOSIDE N MENINGITID</li>
+<li>HYPERSENSIBILITE CETIRIZINE</li>
+<li>HYPERSENSIBILITE IOFLUPANE 123 I</li>
+</ul>
+                
+              
+              
+                
+
+
+  <h2 id="__comments">Commentaires</h2>
+  <div id="disqus_thread"></div>
+  <script>var disqus_config=function(){this.page.url="http://medicaments.hic-sante.com/reference/liste-allergies/",this.page.identifier="/reference/liste-allergies/"};window.addEventListener("load",function(){var e=document,i=e.createElement("script");i.src="//anapharmdz.disqus.com/embed.js",i.setAttribute("data-timestamp",+new Date),(e.head||e.body).appendChild(i)})</script>
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../liste-pathologies/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Précédent
+                </span>
+                Liste des pathologies
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../liste-antecedents_chirurgicaux/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Suivant
+                </span>
+                Liste des antécédents chirurgicaux
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Touts les droits de l'application sont réservés
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.0ac82a11.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copier dans le presse-papier", "clipboard.copied": "Copi\u00e9 dans le presse-papier", "search.config.lang": "fr", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Rechercher", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ['navigation.instant', 'navigation.tabs', 'navigation.sections', 'navigation.expand'],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

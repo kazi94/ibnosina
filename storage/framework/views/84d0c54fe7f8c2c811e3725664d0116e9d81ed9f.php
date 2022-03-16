@@ -1,0 +1,1 @@
+<?php /**PATH C:\laragon\www\anapharm\resources\views\others\about.blade.php ENDPATH**/ ?>

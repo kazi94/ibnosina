@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /medicaments_ajax
